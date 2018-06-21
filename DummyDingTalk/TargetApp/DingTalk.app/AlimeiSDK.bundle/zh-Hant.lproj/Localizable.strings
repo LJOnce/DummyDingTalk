@@ -1,0 +1,83 @@
+/*
+ sdk_localized.strings
+ AlimeiSDK
+ 
+ Created by zixian.qxz on 12/29/14.
+ Copyright (c) 2014 alibaba. All rights reserved.
+ */
+
+
+//Compose Mail
+
+CMTitleReplySubjectPrefix = "回復：";
+CMTitleForwardSubjectPrefix = "轉發：";
+CMTitleMailBodyNoReply = "回復：";
+CMTitleRecipientsNamesNoRecipient = "無收件人";
+CMTitleMailBodyOnDay = "在(日期)";
+CMTitleMailBodyOnTime = "在(時間)";
+CMTitleMailBodyWrites = "寫到";
+CMTitleMailBodyBelowIsForwardMail = "以下是轉發的郵件：";
+CMTitleMailBodySender = "發件人：";
+CMTitleMailBodyDate = "日期：";
+CMTitleMailBodyReceiver = "收件人：";
+CMTitleMailBodyCC = "抄送：";
+CMTitleMailBodySubject = "主題：";
+CMTitleMailBodyNoSubject = "無主題：";
+CMTitleMailComposeReplyReplyDateFormater = "yyyy年M月d日";
+CMTitleMailLocation = "地點：";
+CMTitleMailAttendeesRequired = "必選：";
+
+PermissionDeniedContacts = "無法訪問您的聯系人數據。請到系統\"設置\"-\"隱私\"-\"聯系人\"中開啟";
+PermissionDeniedCalendar = "無法訪問您的日歷數據。請到系統\"設置\"-\"通知\"-\"日歷\"中開啟";
+ErrorMessageCaptchaError = "驗證碼填寫錯誤，請重新填寫";
+ErrorMessageAlilangTokenErrorOrNoEmail = "找不到關聯的郵件賬戶";
+ErrorMessageLoginQRCodeInvalid = "登陸二維碼已失效";
+ErrorMessageLoginQRCodeNotAllowed = "當前賬戶不允許掃碼登陸該站點,請切換賬戶再試";
+
+// CRR - Calendar Recurrence Rule
+CRRIsRepeat = "這是壹個重復日歷項";
+CRRIsException = "這是壹個例外事件";
+CRRNotRepeat = "不重復";
+CRRSuAB = "星期日";
+CRRMoAB = "星期壹";
+CRRTuAB = "星期二";
+CRRWeAB = "星期三";
+CRRThAB = "星期四";
+CRRFrAB = "星期五";
+CRRSaAB = "星期六";
+CRRJanAB = "1月";
+CRRFebAB = "2月";
+CRRMarAB = "3月";
+CRRAprAB = "4月";
+CRRMayAB = "5月";
+CRRJunAB = "6月";
+CRRJulAB = "7月";
+CRRAugAB = "8月";
+CRRSepAB = "9月";
+CRROctAB = "10月";
+CRRNovAB = "11月";
+CRRDecAB = "12月";
+CRR1st = "第壹個";
+CRR2nd = "第二個";
+CRR3rd = "第三個";
+CRR4th = "第四個";
+CRRxth = "第%d個";
+CRRLast = "最後壹個";
+CRRAnd = "和";
+CRROr = "或";
+CRRDe = "的";
+CRRComma = "，";
+CRRWordSpace = "";
+CRRDay = "日子";
+CRRWorkday = "工作日";
+CRRWeekend = "周末";
+CRRLastDay = "最後壹天";
+CRRMonthday = "%d日";
+CRREachDay = "每天";
+CRREachXDay = "每%d天";
+CRREachWeek = "每個";
+CRREachXWeek = "每%d周的";
+CRREachMonth = "每月";
+CRREachXMonth = "每%d個月的";
+CRREachYear = "每年";
+CRREachXYear = "每%d年的";

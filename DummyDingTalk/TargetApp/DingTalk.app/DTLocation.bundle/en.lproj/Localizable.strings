@@ -1,0 +1,48 @@
+/*
+ Localizable.strings
+ DTLocation
+ 
+ Created by 驽良 on 16-6-8.
+ Copyright (c) 2016年 Alibaba(China)Technology Co.,Ltd. All rights reserved.
+ */
+
+
+/*
+ 命名规范：模块.子模块.控件
+ 比如： "login.verify-input.confirm-btn" = "确认登陆";
+ 
+ 如果包含format，请按以下规范命名：
+ "login.verify-input.error-code %d" = "错误的验证码 %d";
+ */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+"dt_oa_attend_assist_origin" = "Departure place";
+"dt_oa_attend_assist_arrive" = "Arriving";
+"dt_oa_attend_assist_set" = "After the opening, every morning to remind the way of intelligent time and weather";
+"dt_oa_attend_assist_dulwork" = "More";
+"dt_oa_attend_assist_arrivetime" = "Estimated time of arrival";
+"dt_oa_attend_assist_distance" = "From time to time";
+"dt_oa_attend_assist_type" = "Set the way to go to work";
+"dt_oa_attend_assist_typetext" = "The office assistant will be able to calculate the time to remind you based on your travel style.";
+"dt_oa_attend_assist_setbtn" = "Set off the ground";
+"dt_oa_attend_assist_setapn" = "Open reminder";
+"dt_oa_attend_assist_setapntext" = "After the opening, every morning to remind the way of intelligent time and weather";
+"dt_oa_attend_assist_loactionisnull" = "No";
+"dt_oa_attend_assist_arriveisnull" = "No";
+"dt_oa_attend_assist_alreadywork" = "Already work";
+"dt_oa_attend_assist_alreadylate" = "Have been late";
+"dt_oa_attend_assist_start" = "Starting Point";
+"dt_oa_attend_assist_end" = "End";
+"dt_oa_attend_assist_title" = "assistant";
+"dt_oa_attend_assist_min" = "minute";
+"dt_oa_attend_assist_sec" = "seconds";
+"dt_oa_attend_assist_hour" = "hour";
+"dt_oa_attend_assist_km" = "kilometre";
+"dt_oa_attend_assist_metres" = "metres";
+"dt_oa_attend_assist_net_error" = "Network error";
+"dt_oa_attend_assist_absence" = "Rest today";
+"dt_oa_attend_assist_nearest" = "Too close to the starting point, the proposed use of walking program";
+"dt_oa_attend_assist_routesnull" = "Route query failed";

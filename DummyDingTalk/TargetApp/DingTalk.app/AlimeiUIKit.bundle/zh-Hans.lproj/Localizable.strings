@@ -1,0 +1,323 @@
+/*
+ uikit_localized.strings
+ AlimeiUIKit
+ 
+ Created by Hongyu on 1/14/15.
+ Copyright (c) 2015 Alibaba-inc. All rights reserved.
+ */
+
+CommonActionButtonCancel          = "取消";
+CommonActionButtonDelete          = "删除";
+CommonActionButtonPreview         = "预览";
+CommonActionButtonConfirmDownload = "确认下载";
+CommonActionButtonOK              = "好的";
+CommonActionButtonConfirm         = "确定";
+CommonActionButtonClose           = "关闭";
+CommonActionButtonFinished        = "完成";
+CommonActionButtonAccept          = "接受";
+CommonActionButtonReject          = "拒绝";
+CommonActionButtonSuspend         = "暂定";
+CommonActionButtonMove            = "移动";
+CommonLoading                     = "正在载入...";
+CommonActionButtonBack            = "返回";
+
+CommonTitleNetworkError           = "网络异常";
+
+CommonSundayAB = "周日";
+CommonMondayAB = "周一";
+CommonTuesdayAB = "周二";
+CommonWednesdayAB = "周三";
+CommonThursdayAB = "周四";
+CommonFridayAB = "周五";
+CommonSaturdayAB = "周六";
+
+CommonJanuaryAB = "1月";
+CommonFebruaryAB = "2月";
+CommonMarchAB = "3月";
+CommonAprilAB = "4月";
+CommonMayAB = "5月";
+CommonJuneAB = "6月";
+CommonJulyAB = "7月";
+CommonAugustAB = "8月";
+CommonSeptemberAB = "9月";
+CommonOctoberAB = "10月";
+CommonNovemberAB = "11月";
+CommonDecemberAB = "12月";
+
+CommonToday       = "今天";
+CommonYesterday   = "昨天";
+CommonThisWeek    = "本周";
+CommonLastWeek    = "一周前";
+CommonThisMonth   = "本月";
+CommonLastTwoWeek = "两周前";
+CommonLastMonth   = "一个月前";
+CommonLastXMonth  = "%d个月前";
+CommonLastYear    = "一年前";
+CommonMoreEarlier = "更早";
+
+//Compose Mail
+CMTitleLoading              = "正在加载...";
+CMTitleLoadingMail          = "正在加载邮件中...";
+CMTitleDealPastedImage      = "正在处理粘贴的图片";
+CMTitleZipImage             = "正在压缩图片";
+CMTitleDiscardUpdate        = "放弃更新";
+CMTitleSaveUpdate           = "保存更新";
+CMTitleDeleteDraft          = "删除草稿";
+CMTitleSaveDraft            = "保存草稿";
+CMTitleTo                   = "添加收件人";
+CMTitleCC                   = "添加抄送人";
+CMTitleBC                   = "添加密送人";
+CMCCANDBCC                  = "抄送/密送,发件人";
+CMSender                    = "发件人:";
+CMTitleSubject              = "输入主题";
+CMTitleBody                 = "输入内容";
+CMTitleNewMail              = "新建邮件";
+CMTitleReplyMail            = "回复邮件";
+CMTitleForwardMail          = "转发邮件";
+CMTitleDraft                = "草稿";
+CMTitleRecomendSubject      = "我强烈推荐你使用这个电子邮件App";
+CMRecommendContent = "<div><br>HI~<br>我正使用%@客户端在手机上收发邮件，真是太方便了！你也来用一下吧。<br><br><div><a href=\"%@\">点此安装%@客户端</a></div><br></div>";
+CMTitleToInvalid            = "收件人地址非法";
+CMTitleBCInvalid            = "密送人地址非法";
+CMTitleCCInvalid            = "抄送人地址非法";
+CMTitleTOContainInvalid     = "收件人(%@)地址非法";
+CMTitleCCContainInvalid     = "抄送人(%@)地址非法";
+CMTitleBCContainInvalid     = "密送人(%@)地址非法";
+CMTitleChooseAttachmentSize = "你可以缩小附件中的照片，请选择以下尺寸";
+CMTitleAttachmentSizeBig    = "大";
+CMTitleAttachmentSizeMiddle = "中";
+CMTitleAttachmentSizeSmall  = "小";
+CMTitleAttachmentSizeActual = "实际大小";
+CMTitleAttachmentFileName   = "照片 %@.jpg";
+CMTitlePhoto                = "照片";
+CMTitleCamera               = "相机";
+CMTitleSendMailSuccess      = "发送邮件成功";
+CMTitleSendMailFail         = "发送邮件失败";
+CMTitleSaveDraftSuccess     = "保存草稿成功";
+CMTitleSaveDraftFail        = "保存草稿失败";
+CMTitleLoadMailFail         = "未能加载邮件内容";
+CMTitleAttachmentsInvalid   = "含有非法附件：%@";
+CMComposeQuoteDivName       = "包含引用文字";
+CMAssetMenuViewChooseFormat = "选择%tu张照片";
+CMAssetMenuViewChooseOne    = "选择1张照片";
+
+CommonMessageCameraPermissionTip = "请在iPhone的“设置-隐私-相机”选项中，允许%@访问你的相机。";
+CommonMessageAlbumPermissionTip  = "请在iPhone的“设置-隐私-照片”选项中，允许%@访问你的手机相册。";
+CommonTitleNoCameraPermission    = "访问拍摄功能出错";
+CommonTitleNoAlbumPermission     = "访问相册功能出错";
+
+PreviewTitleDownloadAttachment = "此附件超过1M，确定在手机网络下载？";
+
+/*mailList*/
+FolderDisplayNameInbox = "收件箱";
+FolderDisplayNameDraft = "草稿箱";
+FolderDisplayNameTrash = "已删除";
+FolderDisplayNameSent = "已发送";
+FolderDisplayNameSpam = "垃圾邮件";
+FolderDisplayNameCalendar = "我的日历";
+FolderDisplayNameContact = "联系人";
+FolderDisplayNameRecentContact = "最近联系人";
+FolderDisplayNameBlacklist = "黑名单";
+
+UserLabelFolderRecentRead = "最近阅读";
+UserLabelFolderFlag = "星标";
+UserLabelFolderOutbox = "待发送";
+UserLabelFolderToBeDeleted = "待删除";
+UserLabelFolderTempSearchResult = "搜索临时目录";
+UserLabelFolderTempEMLParse = "解析EML临时目录";
+UserLabelFolderComposingMail = "编辑中";
+UserLabelFolderCalendarOutbox = "待发送";
+UserLabelFolderCalendarToBeDeleted = "已删除";
+UserLabelFolderContactToBeUpdated = "待修改";
+UserLabelFolderPhoneContactTemp = "手机联系人";
+
+CMTitleReplySubjectPrefix = "回复：";
+CMTitleForwardSubjectPrefix = "转发：";
+CMTitleMailBodyNoReply = "回复：";
+CMTitleRecipientsNamesNoRecipient = "无收件人";
+CMTitleMailBodyOnDay = "在(日期)";
+CMTitleMailBodyOnTime = "在(时间)";
+CMTitleMailBodyWrites = "写到";
+CMTitleMailBodyBelowIsForwardMail = "以下是转发的邮件：";
+CMTitleMailBodySender = "发件人：";
+CMTitleMailBodyDate = "日期：";
+CMTitleMailBodyReceiver = "收件人：";
+CMTitleMailBodyCC = "抄送：";
+CMTitleMailBodySubject = "主题：";
+CMTitleMailBodyNoSubject = "无主题：";
+CMTitleMailComposeReplyReplyDateFormater = "yyyy年M月d日";
+CMTitleMailComposeReplyReplyDateTimeFormater = "yyyy年M月d日 HH:mm:ss";
+CMTitleMailLocation = "地点：";
+CMTitleMailAttendeesRequired = "必选：";
+
+/*mailDetail*/
+MailDetailLabelReceiveDate = "时    间";
+MailDetailLabelMe = "我";
+MailDetailLabelTo = "收件人";
+MailDetailLabelCc = "抄    送";
+MailDetailActionSheetReply = "回复";
+MailDetailActionSheetReplyAll = "回复全部";
+MailDetailActionSheetForward = "转发";
+MailDetailAcitonSheetCancel = "取消";
+MailDetailFormatType = "%d / %d";
+MailDetailAttachment = "附    件:";
+MailDetailRemindDelayThreeHours = "推迟3小时";
+MailDetailRemind9AMTommrow = "明天";
+MailDetailRemindNextMonday9Am = "下周";
+MailDetailRemindNextMonth1st9Am = "下月";
+MailDetailRemindCustomDate = "自定义时间";
+MailDetailRemindCancel = "取消提醒";
+MailDetailSetReminder = "设置提醒";
+MailDetailMoveMail = "移动邮件";
+MailDetailRemindTitle = "提醒";
+MailDetailRemindDate = "时间";
+MailDetailReload = "重新加载";
+MailDetailAlertMessageChooseFuture = "必须选择现在之后的时间";
+MailHeaderViewLabelSender = "发件人";
+MailHeaderViewButtonShowInfo = "显示详情";
+MailHeaderViewLabelNoSubject = "无主题";
+MailInfoViewButtonHideDetail = "隐藏详情";
+MailInfoViewButtonShowDetail = "显示详情";
+MailViewItemMarkStar = "星标";
+MailViewItemMarkNoStar = "取消星标";
+
+MailFolderListMyFolders = "我的文件夹";
+
+MailAttachListAlertNoAvaliableApp = "没有App能打开这个文件";
+
+MeetingAreaViewButtonConfirm = "接受";
+MeetingAreaViewButtonDecline = "拒绝";
+MeetingAreaViewButtonDecideLater = "暂定";
+MeetingAreaViewLabelLocation = "无";
+MeetingAreaViewLabelMeetingCancel = "会议已被取消。";
+MeetingAreaViewLabelReplyMail = "这是一封响应邮件";
+MeetingAreaViewLabelOwner = "您是会议发起者";
+MeetingAreaViewLabelExpired = "此会议已经过期";
+MeetingAreaViewSheetRely = "是否发送响应？";
+MeetingAreaViewSheetCancel = "取消";
+MeetingAreaViewSheetConfirm = "确定";
+
+CalendarTitleAttendee = "被邀请人";
+CalendarTitleNewSchedule = "新建约会";
+CalendarTitleNewInvitation = "新建会议";
+CalendarTitleEditSchedule = "编辑约会";
+CalendarTitleEditInvitation = "编辑会议";
+CalendarTitleCancelSchedule = "取消约会";
+CalendarTitleCancelInvitation = "取消会议";
+CalendarTitleForwardSchedule = "转发约会";
+CalendarTitleForwardInvitation = "转发会议";
+CalendarTitleScheduleDetail = "约会详情";
+CalendarTitleInvitationDetail = "会议详情";
+CalendarTitleSubject = "主题";
+CalendarTitleNoSubject = "无主题";
+CalendarTitleLocation = "地点";
+CalendarTitleNoAlarm = "不提醒";
+CalendarTitleRepeat = "重复";
+CalendarTitleAlarm = "提醒";
+CalendarTitleEndRepeat = "结束重复";
+CalendarTitleDeadline = "选择截止时间";
+CalendarTitleCalendarSource = "归类";
+CalendarTitleFilterCalendarSource = "归类显示";
+CalendarTitleExpired = "已过期";
+CalendarTitleAccept = "接受";
+CalendarTitleReject = "拒绝";
+CalendarTitleSuspend = "暂定";
+CalendarTitleNoResponse = "未响应";
+CalendarTitleToday = "今日";
+CalendarCategoryMine = "我的日历";
+CalendarCategoryShared = "共享给我的日历";
+CalendarAttendeeStatusAccepted = "已接受";
+CalendarAttendeeStatusRejected = "已拒绝";
+CalendarAttendeeStatusSuspended = "已暂定";
+CalendarAttendeeStatusNoResponse = "未响应";
+CalendarViewSttendeeStatus = "参与者接受状态";
+
+CalendarCreatingCalendar = "正在创建日历";
+CalendarDeletingCalendar = "正在删除日历";
+CalendarUpdatingCalendar = "正在修改日历";
+CalendarResponsingInvitation = "正在响应会议";
+CalendarResponseSuccess = "响应已发送";
+
+CalendarTitleDateSelectionError = "选择失败";
+CalendarMessageDateSelectionError = "开始日期必须早于结束日期";
+
+CalendarAlarmBeforeWeek = "提前%d周";
+CalendarAlarmBeforeWeeks = "提前%d周";
+CalendarAlarmBeforeDay = "提前%d天";
+CalendarAlarmBeforeDays = "提前%d天";
+CalendarAlarmBeforeHour = "提前%d小时";
+CalendarAlarmBeforeHours = "提前%d小时";
+CalendarAlarmBeforeMin = "提前%d分钟";
+CalendarAlarmBeforeMins = "提前%d分钟";
+
+/*CalendarRemind.plist*/
+CalendarAlarmBefore5Mins = "提前5分钟";
+CalendarAlarmBefore15Mins = "提前15分钟";
+CalendarAlarmBefore30Mins = "提前30分钟";
+CalendarAlarmBefore1Hour = "提前1小时";
+CalendarAlarmBefore2Hours = "提前2小时";
+CalendarAlarmBefore1Day = "提前1天";
+CalendarAlarmBefore2Days = "提前2天";
+CalendarAlarmBefore1Week = "提前1周";
+
+CalendarAlarmOccuring = "事件发生时";
+CalendarAlarmNoAlarm = "不提醒";
+CalendarAlarmOccuringPrefix = "于日期";
+CalendarAlarmRepeatEvent = "这是一个重复事件";
+
+CalendarTitleFrequencyChoose = "选择重复频率";
+CalendarFrequencyNever = "永不";
+CalendarFrequencyByDay = "每天";
+CalendarFrequencyByWeek = "每周";
+CalendarFrequencyByTwoWeeks = "每两周";
+CalendarFrequencyByMonth = "每月";
+CalendarFrequencyByYear = "每年";
+CalendarAllDayEvent = "全天事件";
+CalendarLocationPlaceholder = "输入地点";
+
+CalendarTotalAttendeesFormat = "%d人";
+
+/*ChooseFolderViewController*/
+FolderVCTitleMoveTo = "移动至";
+
+/*TITokenField*/
+TokenFieldOneAndOthers = "%@, 及其他%d位";
+
+/*CalendarView*/
+CalendarViewTextNoSubject = "无主题";
+CalendarViewTextRemindTime = "提醒  %@";
+
+/*CalendarViewCongroller*/
+/*ChooseCalendarRemindViewController*/
+CalendarVCLabelNoTodo = "暂无待办事项";
+CalendarVCTitleChooseRemindTime = "选择提醒时间";
+
+MessageViewLabelLoading = "正在加载...";
+MessageViewLabelAlertNoDetail = "未能加载邮件内容，请稍后重试";
+
+/*RichEditorViewController*/
+RichEditorVCLabelLoading = "正在加载...";
+RichEditorVCLabelLoadFailed = "未能加载邮件内容，请稍后重试";
+
+"Loading..."                              ="加载中";
+"Select an Album"                         = "选择相册";
+"Okay"                                    = "好的";
+"Pick Photo"                              = "选择照片";
+"Pick Photos"                             = "选择照片";
+
+/*DatePickerView*/
+DatePickerViewButtonSave = "保存";
+DatePickerViewLabelAM = "上午";
+DatePickerViewLabelPM = "下午";
+
+DentrySaveFile           = "保存到钉盘";
+DentrySendToContact      = "发送给联系人";
+DentryDownloadingFmt     = "下载中...(%@/%@)";
+DentryDownladFailure     = "下载失败";
+DentryCancelDownloadBtnTitle = "暂停下载";
+DentryResumeDownloadTitle = "继续下载";
+DentryReDownloadBtnTitle = "重新下载";
+DentryDownloadBtnTitle   = "下载";
+DentryOpenInOther        = "其他应用打开";
+DentrySaveFileSuccess    = "已保存到钉盘";
+

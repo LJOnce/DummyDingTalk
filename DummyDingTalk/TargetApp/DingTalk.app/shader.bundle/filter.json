@@ -1,0 +1,149 @@
+{
+    "amaro": {
+        "config": "amaro.json",
+        "img": [
+            "amaro_blackboard.png",
+            "amaro_map.png",
+            "amaro_overlay_map.png"
+        ],
+        "shader": [
+            "amaro.fs"
+        ]
+    },
+    "beauty": {
+        "config": "beauty.json",
+        "img": [],
+        "shader": [
+            "beauty.fs"
+        ]
+    },
+    "holiga": {
+        "config": "holiga.json",
+        "img": [],
+        "shader": [
+            "holiga.fs"
+        ]
+    },
+    "blues": {
+        "config": "blues.json",
+        "img": [
+            "blues_map.png"
+        ],
+        "shader": [
+            "blues.fs"
+        ]
+    },
+    "brightness": {
+        "config": "brightness.json",
+        "img": [],
+        "shader": [
+            "brightness.fs"
+        ]
+    },
+    "colorful": {
+        "config": "colorful.json",
+        "img": [],
+        "shader": [
+            "colorful.fs"
+        ]
+    },
+    "earlybird": {
+        "config": "earlybird.json",
+        "img": [
+            "earlybird_map.png",
+            "earlybird_blowout_map.png",
+            "earlybird_curves_map.png",
+            "earlybird_overlay_map.png",
+            "earlybird_vignette_map_plus_darker.png"
+        ],
+        "shader": [
+            "earlybird.fs"
+        ]
+    },
+    "excellent": {
+        "config": "excellent.json",
+        "img": [],
+        "shader": [
+            "excellent.fs"
+        ]
+    },
+    "film": {
+        "config": "film.json",
+        "img": [],
+        "shader": [
+            "film.fs"
+        ]
+    },
+    "hdr": {
+        "config": "hdr.json",
+        "img": [
+            "hdr_map.png"
+        ],
+        "shader": [
+            "hdr.fs"
+        ]
+    },
+    "hefe": {
+        "config": "hefe.json",
+        "img": [
+            "hefe_map.png",
+            "hefe_edge_burn.png",
+            "hefe_gradient_map.png",
+            "hefe_metal.png",
+            "hefe_soft_light_map.png"
+        ],
+        "shader": [
+            "hefe.fs"
+        ]
+    },
+    "ink": {
+        "config": "ink.json",
+        "img": [
+            "ink_map.png"
+        ],
+        "shader": [
+            "ink.fs"
+        ]
+    },
+    "lomo": {
+        "config": "lomo.json",
+        "img": [],
+        "shader": [
+            "lomo.fs"
+        ]
+    },
+    "oldtime": {
+        "config": "oldtime.json",
+        "img": [],
+        "shader": [
+            "oldtime.fs"
+        ]
+    },
+    "recall": {
+        "config": "recall.json",
+        "img": [
+            "recall.png"
+        ],
+        "shader": [
+            "recall.fs"
+        ]
+    },
+    "rise": {
+        "config": "rise.json",
+        "img": [
+            "blackboard1024.png",
+            "overlayMap.png",
+            "rise_map.png"
+        ],
+        "shader": [
+            "rise.fs"
+        ]
+    },
+    "sunrise": {
+        "config": "sunrise.json",
+        "img": [],
+        "shader": [
+            "sunrise.fs"
+        ]
+    }
+}

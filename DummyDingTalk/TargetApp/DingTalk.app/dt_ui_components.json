@@ -1,0 +1,92 @@
+{
+  "widget_id": "p_window",
+  "desc": "window",
+  "nodes": [
+    {
+      "widget_id": "p_tabbar",
+      "desc": "tabbar",
+      "nodes": [
+        {
+          "widget_id": "tab_conversation_list",
+          "desc": "conversation_list",
+          "nodes": [
+            {
+              "ads_id": "0003",
+              "widget_id": "ADS_1001",
+              "desc": "im conversation",
+              "nodes": [
+              ]
+            }
+          ]
+        },
+        {
+          "widget_id": "tab_ding",
+          "desc": "ding",
+          "nodes": [
+          ]
+        },
+        {
+          "widget_id": "tab_work",
+          "desc": "work",
+          "nodes": [
+            {
+              "ads_id": "0006",
+              "widget_id": "ADS_3001",
+              "desc": "add micro apps"
+            }
+          ]
+        },
+        {
+          "widget_id": "tab_contacts",
+          "desc": "contacts",
+          "nodes": [
+            {
+              "ads_id": "0004",
+              "widget_id": "ADS_4001",
+              "desc": "create team"
+            }
+          ]
+        },
+        {
+          "widget_id": "ADS_5001",
+          "desc": "my_profile",
+          "nodes": [
+            {
+              "ads_id": "0005",
+              "widget_id": "ADS_5003",
+              "desc": "promotion"
+            },
+            {
+              "ads_id": "0001",
+              "widget_id": "ADS_5002",
+              "desc": "services center",
+              "nodes": [
+              ]
+            },
+            {
+              "widget_id": "ADS_5004",
+              "desc": "settings",
+              "nodes": [
+                {
+                  "widget_id": "ADS_5005",
+                  "desc": "about dingtalk",
+                  "nodes": [
+                    {
+                      "widget_id": "cell_new_features",
+                      "desc": "new features"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ads_id": "0007",
+      "widget_id": "ADS_0001",
+      "desc": "global alert"
+    }
+  ]
+}

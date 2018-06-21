@@ -1,0 +1,17 @@
+/* 
+  whatsnew.strings
+  DingTalk
+
+  Created by anlanchen on 15/10/23.
+  Copyright © 2015年 Alibaba(China)Technology Co.,Ltd. All rights reserved.
+*/
+
+
+"whatsnew.headtitle1" = "1. @ feature is no longer restricted in chatting only";
+"whatsnew.content1" = "You can now @ your colleagues in DING, approval, daily report comments, instead of @ colleagues in chatting only.";
+
+"whatsnew.headtitle2" = "2. Improved“One key batch”";
+"whatsnew.content2" = "You don’t have to add mail recipients one by one now, you can send mails to group chat members in group chat; The newly added transform audio messages to words feature could also enable you to transform audio messages to words in batch. ";
+
+"whatsnew.headtitle3" = "3. The new generation of work attendance recording";
+"whatsnew.content3" = "Get informed of your team’s attendance status in real time, check their attendance performance wherever you are. Work attendance, personal leave data is now connected, your work attendance report can be generated intelligently now! It will be released to limited users in work apps.";

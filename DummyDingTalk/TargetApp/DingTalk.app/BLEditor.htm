@@ -1,0 +1,375 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable = no" />
+        <link href="BLView.css" type="text/css" rel="stylesheet">
+            <script src="MCOMessageViewScript.js"></script>
+            <script src="TGJSBridge.js"></script>
+            <script type="text/javascript" src="jquery-1.9.1.js"></script>
+            <script>
+                
+            //注册可以被native调用的js消息
+            jsBridge.bind('setFocus',function(object){
+                                        document.getElementById('mailBody').focus();
+                                        });
+                          
+            jsBridge.bind('setContent',function(object){
+                                        var mailBodyDiv = document.getElementById("mailBody");
+                                        mailBodyDiv.innerHTML = object.content;
+                                        scroll(0,0);
+                                        });
+            
+            var currentHeight = 0;
+            var caretY  = 0;
+
+            function attachFileTaped(filename,contentId,uniqueId,size) {
+                    jsBridge.postNotification('attachFileTaped',
+                                              {
+                                              "filename":filename,
+                                              "contentId":contentId,
+                                              "uniqueId":uniqueId,
+                                              "size":size
+                                              });
+            }
+            
+            function checkEditorHeightAndScollToShowCaretIfNeeded(shouldScroll){
+                newHeight = document.getElementById('mailBody').offsetHeight;
+                if(newHeight!=currentHeight)
+                {
+                    jsBridge.postNotification('editorHeightChangedAndScollToShowCaretIfNeeded',{"oldHeight":currentHeight,"height":newHeight,"shouldScroll":shouldScroll});
+                    currentHeight = newHeight;
+                }
+            }
+            
+            
+            function checkAndShowOffset(){
+                var focusY = getFocusY();
+                if(caretY != focusY){
+                    caretYChanged(focusY);
+                }
+            }
+            
+            function caretYChanged(newY){
+                jsBridge.postNotification('caretYChanged',{"new":newY,"old":caretY});
+                caretY =newY;
+            }
+            
+            function focusY()
+            {
+                var x = 0, y = 0;
+                var sel = window.getSelection();
+                if (sel.rangeCount) {
+                    var range = sel.getRangeAt(0);
+                    if (range.getClientRects) {
+                        var rects = range.getClientRects();
+                        if (rects.length > 0) {
+                            x = rects[0].left;
+                            y = rects[0].top+rects[0].height;
+                        }
+                    }
+                }
+                return y;
+            }
+            
+            // 得到elem在当前页面内的绝对位置
+            // 在table内的元素，offsetTop通常都是0，所以需要递归累加offsetParent
+            function getYOffsetInPage(elem)
+            {
+                if (!elem)
+                    return 0;
+
+                var y = elem.offsetTop;
+                while (elem = elem.offsetParent) {
+                    y += elem.offsetTop;
+                }
+                
+                return y;
+            }
+
+            // tangtai.cgt 2016/01/11 #7702514
+            // 重写getFocusY, 移除老的方法
+            function getFocusY()
+            {
+                var sel = window.getSelection();
+                sel.collapseToStart();
+                var range = sel.getRangeAt(0);
+                var span = document.createElement("span");
+                range.insertNode(span);
+                var topPosition = getYOffsetInPage(span);
+                span.parentNode.removeChild(span);
+                return topPosition;
+            }
+            
+            function ignore_getFocusY()
+            {
+                //Add by HH,2014-8-19,getFocusY,replace getSelectionCoords
+                var offsetY = focusY();
+                offsetY = offsetY - 28;
+                
+                if(offsetY >= 0) return offsetY;
+                
+                var mailBody = document.getElementById("mailBody");
+                var childCounts = mailBody.children.length;
+                
+                offsetY = 0;
+                
+                var orginDiv = null;
+                
+                var sel = window.getSelection();
+                
+                if (sel.rangeCount) {
+                    var range = sel.getRangeAt(0);
+                    var container = range.commonAncestorContainer;
+                    if(container && container.nodeType != Node.ELEMENT_NODE)
+                    {
+                        container = container.parentElement;
+                    }
+                    orginDiv =  container;
+                    
+                }
+                
+                var temp = 0;
+                var countHeight = 0;
+                
+                for(;temp < childCounts;temp++){
+                    
+                    //找到当前焦点所在对象
+                    if(orginDiv && (orginDiv === mailBody.children[temp])){
+                        break;
+                    }
+                    countHeight +=mailBody.children[temp].offsetHeight;
+                    offsetY = mailBody.children[temp].offsetTop;
+                }
+                
+                return countHeight;
+            }
+            
+            function outputLog(content){
+                 jsBridge.postNotification('outputLog',{"content":content});
+            }
+            
+            function getAutoSaveContent(){
+                
+                return document.getElementById('mailBody').innerHTML;
+            }
+            
+            function getContent()
+            {
+                if ($('#blMailReferBody')){
+                    if($('#blMailReferBody').css('display') == 'none'){
+                        $('#blMailReferBody').remove();
+                    }
+                }
+                return document.getElementById('mailBody').innerHTML;
+            }
+            
+            function getDraftContent()
+            {
+                var refetBody = '';
+                if ($('#blMailReferBody')){
+                    if($('#blMailReferBody').css('display') == 'none'){
+                        refetBody = $('#blMailReferBody').html();
+                        $('#blMailReferBody').remove();
+                    }
+                }
+                return document.getElementById('mailBody').innerHTML + refetBody;
+            }
+            
+            function judgeReferQuoteMailHideOrNot(){
+                if ($("#blMailReferBody")){
+                    if($('#blMailReferBody').css('display') == 'none'){
+                        jsBridge.postNotification('quoteMailHideOrNot',
+                                                  {
+                                                  "quoteMailHide":true
+                                                  });
+                    }
+                    else{
+                        jsBridge.postNotification('quoteMailHideOrNot',
+                                                  {
+                                                  "quoteMailHide":false
+                                                  });
+                    }
+                }
+                else{
+                    jsBridge.postNotification('quoteMailHideOrNot',
+                                              {
+                                              "quoteMailHide":false
+                                              });
+                }
+            }
+            
+            
+            function getPlainTextFromContent()
+            {
+                return $("#mailBody").text();
+            }
+            
+            function dump(param, name, indent) {
+                if(typeof param == 'object') {
+                    var _indent = indent ? indent : '';
+                    var info = name ? _indent + name + ' : {\n' : '<pre>{\n';
+                    indent = _indent + '\t';
+                    for(var key in param) {
+                        if(typeof param[key] == 'object') {
+                            info += dump(param[key], key, indent);
+                        }else {
+                            if(typeof param[key] == 'string') {
+                                param[key] = '\"' + param[key] + '\"';
+                            }
+                            info += indent + key + ' : '+ param[key] + ',\n';
+                        }
+                    }
+                    info = info.replace(/,\n$/i,'\n');
+                    return name ? info + _indent + '},\n' : info + '}';
+                }else {
+                    return param;
+                }
+            }
+            
+            function isContentEmpty(content) {
+                var brPos = content.indexOf("<br>");
+                if (brPos > 0){
+                    return false;
+                }
+                
+                var contentPrefixIndex = content.indexOf("<div id=\"bali-sign\">");
+                if (contentPrefixIndex >= 0){
+                    var contentPrefix = content.substring(0, contentPrefixIndex);
+                    var reg = new RegExp("<br>","g");
+                    var left = contentPrefix.replace(reg,"");
+                    if (left.length > 0){
+                        return false;
+                    }
+                    else{
+                        return true;
+                    }
+                }
+                else{
+                    return true;
+                }
+            }
+            
+            function showQouteDiv(){
+                if($('#blMailReferBody').css('display') == 'none'){
+                    $('#blMailReferBody').show();
+                }
+            }
+            
+            $(document).ready(function()
+            {
+                              hanledAllWebKitFakeUrlImageURL();
+                              judgeReferQuoteMailHideOrNot();
+                              
+                              $("#mailBody").focus(function(e) {
+                                                   var newHeight = document.getElementById('mailBody').offsetHeight;
+                                                   jsBridge.postNotification('togglePlaceholder',
+                                                                             {"isHide":true});
+                                                   });
+                              
+                              $("#mailBody").bind('keyup',function(event){
+                                                  checkAndShowOffset();
+                                                  });
+                              
+                              $("#mailBody").bind('paste',function(e){
+                                                  
+                                                  setTimeout(function(){
+                                                             jsBridge.postNotification('pastedFromHtml',{});
+                                                             },100);
+                                                  checkAndShowOffset();
+                                                  });
+                              $("#mailBody").blur(function(){
+                                                  var content = $("#mailBody").html();
+                                                  var empty = isContentEmpty(content);
+                                                  if (empty){
+                                                      jsBridge.postNotification('togglePlaceholder',
+                                                                                {"isHide":false});
+                                                  }
+                                                  });
+                              
+                              $('body').css('background', '#ffffff');
+                              
+             });
+            </script>
+            
+            <style>
+                @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                    body {
+                        font-family: Helvetica, Arial, sans;
+                        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                    }
+                }
+            
+            @media only screen and (max-device-width: 480px) {
+                body {
+                    font-family: Helvetica, Arial, sans;
+                    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                }
+            }
+            html,body{
+                margin: 0 0 0 0;
+                padding:0 0 0 0;
+            }
+            html{
+                background-color:#ffffff;
+            }
+            body{
+                font-size: 18px;
+                background-color:#ffffff;
+                margin: 0 18px 0 18px;
+                -webkit-user-select: auto;
+                -webkit-text-size-adjust:none;
+                word-wrap: break-word;
+                -webkit-nbsp-mode: space;
+            }
+            body,a,span,p,div,li,h1,h2,h3,h4,h5,h6,h7,b,font
+            {
+                font-family:FZLanTingHeiS-R-GB;
+            }
+            #messageContentView
+            {
+                background-color:#ffffff;
+                padding:0 0 0 0;
+                margin: 6 0 0 0;
+            }
+            #mailBody
+            {
+                background-color:#ffffff;
+                display:block;
+                padding:0 0 0 0;
+                margin: 0 0 0 0;
+            }
+            #bali-content
+            {
+                padding:0 0 0 0;
+                margin: 0 0 0 0;
+            }
+            #bali-sign
+            {
+                background-color:#ffffff;
+                overflow: hidden;
+                padding:0 0 0 0;
+                margin: 0 0 0 0;
+            }
+            
+            input[type=button]{
+                -webkit-appearance:none;
+                outline:none
+            }
+            .display_image{
+                width:100%;
+                min-width:320px;
+                border-radius: 5px 0px 0px 5px;
+                background-color:#f4f4f4;
+                clear:both;
+                padding:5px;
+                font-size:12px;
+            }
+            </style>
+            </head>
+    <body>
+        <div id="messageContentView">
+            <div id="mailBody" contentEditable="true" autocorrect="false" spellcheck="false" autocomplete="false" autocapitalize="off">%@$BLMailQouteBody$</div>
+        </div>
+    </body>
+    <iframe src='x-mailcore-msgviewloaded:' style='width: 0px; height: 0px; border: none;'>
+    </iframe>
+</html>

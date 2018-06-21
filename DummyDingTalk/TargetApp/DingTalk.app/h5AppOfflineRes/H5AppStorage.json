@@ -1,0 +1,441 @@
+{
+  "appList" : [
+    {
+      "created_time" : 1442199063,
+      "launch_params" : {
+        "url" : "\/mobile_portal\/version.html"
+      },
+      "version" : "1.0.0.201509140003",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "9",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/1790\/1442199061511_9-1_0_0_201509140003+TAR.amr",
+      "extend_info" : {
+        "home" : "http:\/\/o.fosun.com\/mobile_portal"
+      },
+      "size" : 214220,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "复星2套环境（DingTalk）"
+    },
+    {
+      "created_time" : 1457265974,
+      "launch_params" : {
+        "url" : "\/dingsenior\/version.html"
+      },
+      "version" : "1.0.0.201603050001",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "776",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/2808\/1457265972417_776-1_0_0_201603050001+TAR.amr",
+      "extend_info" : {
+        "home" : "https:\/\/dingtalk.hecom.cn\/dingsenior"
+      },
+      "size" : 338058,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "红圈营销高级版（DingTalk）"
+    },
+    {
+      "created_time" : 1463396362,
+      "launch_params" : {
+        "url" : "\/logWeb\/version.html"
+      },
+      "version" : "1.0.1.201605160001",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "6555366",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/6522\/1463396306048_6555366-1_0_1_201605160001+TAR.amr",
+      "extend_info" : {
+        "home" : "http:\/\/diary.ehailiang.com:8661\/logWeb"
+      },
+      "size" : 203405,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "hailiang（DingTalk）"
+    },
+    {
+      "created_time" : 1450234901,
+      "launch_params" : {
+        "url" : "\/dingtalk\/version.html"
+      },
+      "version" : "1.3.0.201512160001",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "153",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/672\/1450234890382_153-1_3_0_201512160001+TAR.amr",
+      "extend_info" : {
+        "home" : "https:\/\/dingtalk.hecom.cn\/dingtalk"
+      },
+      "size" : 364647,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "和创（DingTalk）"
+    },
+    {
+      "created_time" : 1451378224,
+      "launch_params" : {
+        "url" : "\/dingbasic\/version.html"
+      },
+      "version" : "1.0.0.201512280002",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "691",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/4398\/1451378214106_691-1_0_0_201512280002+TAR.amr",
+      "extend_info" : {
+        "home" : "https:\/\/dingtalk.hecom.cn\/dingbasic\/"
+      },
+      "size" : 239853,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "红圈营销（DingTalk）"
+    },
+    {
+      "system_min" : "1",
+      "launch_params" : {
+
+      },
+      "version" : "3.1.5.201607071444",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "-4",
+      "url" : "http:\/\/static.dingtalk.com\/media\/lATOV3FIVc4RUJO8zmLZ7v0.amr",
+      "extend_info" : {
+        "status" : 1,
+        "home" : "https:\/\/aflow.dingtalk.com\/dingtalk"
+      },
+      "size" : 262838,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "aflow"
+    },
+    {
+      "system_min" : "1",
+      "launch_params" : {
+
+      },
+      "version" : "1.2.1.201607122214",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "158",
+      "url" : "http:\/\/static.dingtalk.com\/media\/lATOWnE4j84yAeqhzhAgLZM.amr",
+      "extend_info" : {
+        "status" : 1,
+        "home" : "https:\/\/attend.dingtalk.com\/attend"
+      },
+      "size" : 518862,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "attend"
+    },
+    {
+      "created_time" : 1467976437,
+      "launch_params" : {
+        "url" : "\/welfare\/version.html"
+      },
+      "version" : "1.3.4.201607080000",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "-1002",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/9625\/1467976429310_-1002-1_3_4_201607080000+TAR.amr",
+      "extend_info" : {
+        "home" : "https:\/\/h5.dingtalk.com\/welfare"
+      },
+      "size" : 799470,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 3,
+      "name" : "福利社V2（DingTalk）"
+    },
+    {
+      "created_time" : 1467976677,
+      "launch_params" : {
+        "url" : "\/prize\/index.html"
+      },
+      "version" : "1.1.5.201607080000",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "-1007",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/5271\/1467976674951_-1007-1_1_5_201607080000+TAR.amr",
+      "extend_info" : {
+        "home" : "https:\/\/h5.dingtalk.com\/prize",
+        "native_enable" : false
+      },
+      "size" : 799447,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "抽奖活动（DingTalk）"
+    },
+    {
+      "system_min" : "1",
+      "launch_params" : {
+
+      },
+      "version" : "0.5.0.201606010005",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "2",
+      "url" : "http:\/\/static.dingtalk.com\/media\/lATOMhTLU84ipl4vznmmEYo.amr",
+      "extend_info" : {
+        "status" : 1,
+        "home" : "https:\/\/landray.dingtalkapps.com\/alid"
+      },
+      "size" : 330658,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "report"
+    },
+    {
+      "created_time" : 1467857869,
+      "launch_params" : {
+        "url" : "\/invite\/invite.html"
+      },
+      "version" : "2.0.1.201607070000",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "-1001",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/4236\/1467857863920_-1001-2_0_1_201607070000+TAR.amr",
+      "extend_info" : {
+        "home" : "https:\/\/h5.dingtalk.com\/invite",
+        "native_enable" : false
+      },
+      "size" : 546473,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 1,
+      "name" : "邀请（DingTalk）"
+    },
+    {
+      "created_time" : 1465874140,
+      "launch_params" : {
+        "url" : "\/create-team\/success.html"
+      },
+      "version" : "0.1.0.201606141052",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "-5553",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/4282\/1465874063821_-5553-0_1_0_201606141052+TAR.amr",
+      "extend_info" : {
+        "home" : "https:\/\/h5.dingtalk.com\/create-team"
+      },
+      "size" : 83210,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "创建团队成功页 (DingTalk)"
+    },
+    {
+      "created_time" : 1467857869,
+      "launch_params" : {
+        "url" : "\/invite\/invite.html"
+      },
+      "version" : "2.0.1.201607070000",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "-1001",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/4236\/1467857863920_-1001-2_0_1_201607070000+TAR.amr",
+      "extend_info" : {
+        "home" : "https:\/\/h5.dingtalk.com\/invite",
+        "native_enable" : false
+      },
+      "size" : 546473,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "邀请（DingTalk）"
+    },
+    {
+      "created_time" : 1453381968,
+      "launch_params" : {
+        "url" : "\/dhome\/version.html"
+      },
+      "version" : "1.0.1.201501212006",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "10525882",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/6824\/1453381946514_10525882-1_0_1_201501212006+TAR.amr",
+      "extend_info" : {
+        "home" : "http:\/\/dddiary.ehailiang.com:8881\/dhome"
+      },
+      "size" : 170900,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "海亮钉钉微应用首页（DingTalk）"
+    },
+    {
+      "system_min" : "1",
+      "launch_params" : {
+
+      },
+      "version" : "7.0.1.201607120711",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "-8",
+      "url" : "http:\/\/static.dingtalk.com\/media\/lATOWeACb85g8xJDzipueHI.amr",
+      "extend_info" : {
+        "status" : 1,
+        "home" : "https:\/\/attendance.dingtalk.com\/attendance"
+      },
+      "size" : 211704,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "attendance"
+    },
+    {
+      "created_time" : 1466517177,
+      "launch_params" : {
+        "url" : "\/crm\/customer_edit.html"
+      },
+      "version" : "1.2.0.2016060210000",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "-1005",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/1652\/1466517171310_-1005-1_2_0_2016060210000+TAR.amr",
+      "extend_info" : {
+        "home" : "https:\/\/h5.dingtalk.com\/crm",
+        "native_enable" : false
+      },
+      "size" : 284302,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "客户通讯录基础（DingTalk）"
+    },
+    {
+      "created_time" : 1440732689,
+      "launch_params" : {
+        "url" : "\/mobile_portal\/version.html"
+      },
+      "version" : "1.0.0.201508260003",
+      "system_min" : "1",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "34689522",
+      "url" : "https:\/\/t.alipayobjects.com\/L1\/92\/616\/1440732670300_34689522-1_0_0_201508260003+TAR.amr",
+      "extend_info" : {
+        "home" : "http:\/\/appuat.fosun.com\/mobile_portal"
+      },
+      "size" : 174537,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "复星（DingTalk）"
+    },
+    {
+      "system_min" : "1",
+      "launch_params" : {
+
+      },
+      "version" : "1.9.2.201605300002",
+      "sdk_max" : "2.0.0",
+      "auto_install" : true,
+      "client_max" : "100",
+      "appId" : "-2",
+      "url" : "http:\/\/static.dingtalk.com\/media\/lATOL11mg84j6xFuzmFRU58.amr",
+      "extend_info" : {
+        "status" : 1,
+        "home" : "https:\/\/app.dingtalk.com\/blackboard",
+        "native_enable" : false
+      },
+      "size" : 129451,
+      "icon_url" : "",
+      "sdk_min" : "1.0.0",
+      "system_max" : "100",
+      "client_min" : "1",
+      "online" : true,
+      "status" : 4,
+      "name" : "blackboard"
+    }
+  ]
+}

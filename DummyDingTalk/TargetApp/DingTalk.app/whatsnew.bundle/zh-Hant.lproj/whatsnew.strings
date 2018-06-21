@@ -1,0 +1,17 @@
+/* 
+  whatsnew.strings
+  DingTalk
+
+  Created by anlanchen on 15/10/23.
+  Copyright © 2015年 Alibaba(China)Technology Co.,Ltd. All rights reserved.
+*/
+
+
+"whatsnew.headtitle1" = "1.@功能不再局限於聊天";
+"whatsnew.content1" = "不再只有聊天裏可以@人，現在DING、審批、日誌評論同樣可以@人了";
+
+"whatsnew.headtitle2" = "2.“一鍵批量”能力提升";
+"whatsnew.content2" = "發郵件無需逐個添加，在群聊中直接批量給群成員發郵件；新增語音轉文字功能同樣可以一鍵批量轉多條語音";
+
+"whatsnew.headtitle3" = "3.新一代考勤管道來了";
+"whatsnew.content3" = "實时掌握團隊考勤狀態，多地考勤隨時看。出勤、請假數據打通，考勤報表智慧匯總！在工作應用限量開放中";

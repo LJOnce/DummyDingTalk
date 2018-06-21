@@ -1,0 +1,87 @@
+<!main!>
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=2.0, minimum-scale=0.01">
+            <meta name="format-detection" >
+                <meta http-equiv="X-WebKit-CSP" id＝"XWebKitCSP" content = "$imgsrc$; default-src 'self'; style-src * 'unsafe-inline'; font-src *;">
+
+                    <style>
+                        html,body{font-family:helvetica, verdana, san-serif;word-break:break-word;background-color:white !important;line-height:1.5; margin:0 !important;}
+                        /* html,body,p{margin:0;padding:0; -webkit-text-size-adjust:yes;}*/
+                        /* body左右padding值参照commonui 的 READMAIL_PADDING_LEFT 值*/
+                        html{padding:12px 14px 20px !important; }
+                        body{padding-bottom:2px !important;}
+                        h1, h2, h3, h4 {font-weight: bold; line-height: 1.5; margin:0; padding:0;}
+                        h1 {font-size:1.8em;}
+                        h2 {font-size:1.4em;}
+                        h3 {font-size:1.2em;}
+                        h4 {font-size:1em;}
+                        p{margin-bottom:.3em;}
+                        a {color:#116cdf; text-decoration:underline;}
+                        .mailcontent img{ vertical-align: middle;}
+                        .ios-upload-audio, .app-upload-audio {hidden: true;visibility: hidden;}
+                        .mail_blockquote_element {
+                            display: none;
+                        }
+                    
+                    .origin-mail-header, .mail-footer{
+                        color:#444;
+                        font-size:88%;
+                    }
+                    
+                    .origin-mail-header strong, .mail-footer strong{
+                        font-weight: bold;
+                    }
+                    
+                    #mailcontent .bl-preloader {
+                        margin:3px 5px 3px 5px !important;
+                        width: 39px !important;
+                        height: 30px !important;
+                        Background: url(bl_reader_icon_pic@2x.png);
+                        background-size: 39px 30px;
+                    }
+                    /*#mailcontent > div, #mailcontent > p {width:auto!important;height:auto!important;}*/
+                    .selfdiv{width:auto!important;height:auto!important;}
+                    .mailcontent{  font-size:17px;}
+                    .mailcontent blockquote{ margin-left:0 !important; margin-right:0 !important;}
+                    .blTableArea {width:auto;overflow:visible;border:none;}
+                    .blTableArea {width:100%!important;overflow:hidden;}
+                    /*table设了table的margin有的邮件布局回乱的*/
+                    /*.blTableArea > table {margin-left:0 !important; margin-right:0 !important;};*/
+                    .blTableArea .blTableArea {width:auto;overflow:visible;border:none;}
+                    /*table {table-layout:fixed;width:100%;}*/
+                    
+                    .display_image_img {
+                        vertical-align: middle;
+                        margin-top:-6px;
+                        margin-bottom:20px;
+                        color: #212121;
+                        background-color:#D5E8FF;
+                        border-radius: 4px;
+                    }
+                    
+                    .display_image_text {
+                        text-align:center;
+                        padding: 5px;
+                        color:#008ccc;
+                    }
+                        </style>
+                        <script src="blEDefines.js"></script>
+                        <script src="blEHtmlAddtions.js"></script>
+                        <script src="blEImgpreloader.js"></script>
+                        <script src="$BLReaderMail$"></script>
+                        </head>
+	<body>
+            $showInlineImageTextDiv$
+        <div class="mailcontent" id="mailcontent">
+            $content$
+        </div>
+    </body>
+</html>
+<!/main!>
+
+
+
+
+

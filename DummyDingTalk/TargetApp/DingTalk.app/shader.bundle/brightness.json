@@ -1,0 +1,1 @@
+{"filter":{"-type":"filter","program":[{"-id":"0","shader":{"-id":"0","-type":"fs","-name":"brightness.fs","-input_image":"inputImageTexture","uniform":[{"-type":"sampler2D","-name":"inputTextureY"},{"-type":"sampler2D","-name":"inputTextureU"},{"-type":"sampler2D","-name":"inputTextureV"},{"-type":"float","-name":"brightness","-value":"-0.80"}]}}]}}

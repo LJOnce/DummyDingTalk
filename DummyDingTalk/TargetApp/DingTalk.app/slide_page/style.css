@@ -1,0 +1,56 @@
+html, body, div, span, img, b {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+body {
+  -webkit-text-size-adjust:none;
+  font-family:sans-serif;
+}
+#mySwipe div b {
+  display:block;
+  text-align:center;
+}
+.page-dots {
+  position: absolute;
+  z-index: 100;
+  bottom: 64px;
+  width: 100%;
+  text-align: center;
+}
+.dot{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  border: 1px solid #38adff;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.dot.selected{
+  background-color: #38adff;
+  border:none;
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+.flashImg{
+  width: 100%;
+}

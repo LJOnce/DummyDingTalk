@@ -1,0 +1,32 @@
+/*
+ Localizable.strings
+ DingTalk
+ 
+ Created by Lings on 14-8-1.
+ Copyright (c) 2014年 Alibaba(China)Technology Co.,Ltd. All rights reserved.
+ */
+
+
+/*
+ 命名规范：模块.子模块.控件
+ 比如： "login.verify-input.confirm-btn" = "确认登陆";
+ 
+ 如果包含format，请按以下规范命名：
+ "login.verify-input.error-code %d" = "错误的验证码 %d";
+ */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+// time display
+"time.yesterday" = "昨天";
+"time.month_day_format" = "M月d日";
+"time.year_month_day_format" = "yyyy/M/d";
+
+"time.justment" = "刚刚";
+"time.minutes.ago%zd" = "%zd分钟前";
+"time.today%zd:%.2d" = "今天 %zd:%.2d";
+"time.yesterday%zd:%.2d" = "昨天 %zd:%.2d";
+"time.month.day.%ld%ld%zd:%.2d" = "%ld月%ld日 %zd:%.2d";
+"time.year.month.day.%ld%02ld%02ld" = "%ld-%02ld-%02ld";
+"time.year.month.day.hour.min.%ld%02ld%02ld%zd:%02d" = "%ld-%02ld-%02ld %zd:%02d";

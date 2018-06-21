@@ -1,0 +1,56 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+<title>slides</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+<link href='./style.css' rel='stylesheet'/>
+</head>
+<body>
+
+
+<div id='mySwipe' style='margin:0 auto' class='swipe'>
+  <div class='swipe-wrap'>
+    <div><b><img src="imgs/01.png" class="flashImg"/></b></div>
+    <div><b><img src="imgs/02.png" class="flashImg"/></b></div>
+    <div><b><img src="imgs/03.png" class="flashImg"/></b></div>
+    <div><b><img src="imgs/04.png" class="flashImg"/></b></div>
+    <div><b><img src="imgs/05.png" class="flashImg"/></b></div>
+  </div>
+</div>
+<div class="page-dots">
+  <span class="dot selected"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script src='swipe.min.js'></script>
+<script>
+// pure JS
+var elem = document.getElementById('mySwipe');
+var dots = document.getElementsByTagName('span');
+var dotsLength = dots.length;
+window.mySwipe = Swipe(elem, {
+  startSlide: 0,
+  auto: 3000,
+  continuous: true,
+  disableScroll: true,
+  stopPropagation: true,
+  callback: function(index, element) {
+    for(var i=0;i<dotsLength;i++){
+      dots[i].className = "dot";
+    }
+    dots[index].className = "dot selected";
+  },
+  transitionEnd: function(index, element) {
+    if(index == dotsLength-1){
+      console.log('stop');
+      window.mySwipe.stop();
+    }
+  }
+});
+// with jQuery
+// window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
+
+</script>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta id="-richtext-viewport" name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=6.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link type="text/css" href="BLView.css" rel="stylesheet">
+    <script type="text/javascript" src="MCOMessageViewScript.js"></script>
+    <script type="text/javascript" src="TGJSBridge.js"></script>
+    <script type="text/javascript" src="jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="$BLScale.js$"></script>
+    <script>
+        $(function () {
+            scale();
+            jsBridge.postNotification('adjustTableFinished', {});
+        });
+
+        function attachFileTaped(filename, contentId, uniqueId, size) {
+            jsBridge.postNotification('attachFileTaped', {
+                "filename" : filename,
+                "contentId" : contentId,
+                "uniqueId" : uniqueId,
+                "size" : size
+            });
+        }
+
+        function showInlineAttachmentTaped(filename, contentId, uniqueId, size) {
+            var btn_display_image = document.getElementById("btn_display_image");
+            btn_display_image.setAttribute('style', "display:none");
+            jsBridge.postNotification('showInlineAttachmentTaped', {});
+        }
+    
+    </script>
+    <script type="text/javascript">
+        //注册可以被native调用的js消息                      
+        jsBridge.bind('webViewDidFinishLoad', function (object) {
+
+                      });
+
+        jsBridge.bind('setContent', function (object) {
+            var mailBodyDiv = document.getElementById("mailBody");
+            mailBodyDiv.innerHTML = object.content;
+            scroll(0, 0);
+                   
+                     
+        });
+
+        jsBridge.bind('showInlineAttachmentButton', function (object) {
+            var btn_display_image = document.getElementById("btn_display_image");
+            btn_display_image.setAttribute('style', "display:block");
+        });
+        
+        jsBridge.bind('showInlineAttachmentSize', function (object) {
+                      $('.display_image_text').text(object.fileSize);
+                      });
+
+        
+    </script>
+    
+    <script type="text/javascript">
+        (function($) {
+         $.fn.longClick = function(callback, timeout) {
+         var timer;
+         timeout = timeout || 500;
+         var me = this;
+         $(this).get(0).addEventListener('touchstart',function() {
+                                   timer = setTimeout(function() { callback(me); }, timeout);
+                                   return false;
+                                   }, false);
+         
+         document.addEventListener('touchend',function() {
+                                   clearTimeout(timer);
+                                   return false;
+                                   }, false);
+         
+         };
+         
+         })(jQuery);
+         
+         $(document).ready(function(){
+                           var images = imageElements();
+                           
+                           for (var i = 0; i < images.length; i++) {
+                           $(images[i]).longClick(function(me) {
+                                                  var src = me.attr("src");
+                                                  jsBridge.postNotification("longPressedImage",{"src":src});
+                                                  });
+                           }
+         })
+                           
+        </script>
+    
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        #btn_quote {
+            font-size: 16px;
+            text-align: center;
+            color: #747474;
+            background: #e4e4e4;
+            display: block;
+            height: 17px;
+            line-height: 5px;
+            width: 38px;
+            padding: 0px;
+            margin: 10px 0;
+            -webkit-border-radius: 3px;
+            border-style: solid;
+            border-color: #bbbbbb;
+            border-width: 1px;
+        }
+
+        body, a, span, p, div, li, h1, h2, h3, h4, h5, h6, h7, b, font {
+            font-family: FZLanTingHeiS-R-GB;
+            /*word-break: break-all !important;*/
+            /*注释是因为break-all导致英文没有按单词折行，qianmiao fix*/
+        }
+
+        #messageContentView {
+            padding: 10px;
+            line-height: 25px;
+        }
+
+        input[type=button] {
+            -webkit-appearance: none;
+            outline: none
+        }
+
+        .display_image {
+            width: 90%;
+            min-width: 288px;
+            border-radius: 5px 5px 5px 5px;
+            background-color: #d5e8ff;
+            clear: both;
+            padding: 0px;
+            font-size: 14px;
+            vertical-align: middle;
+            height: 28px;
+            margin: 0px 25px 0px 20px;
+        }
+
+        .display_image_img {
+            vertical-align: middle;
+            float: right;
+            margin-right: 18px;
+            margin-top: 4px;
+            margin-bottom: 5px;
+            color: #212121;
+        }
+
+        .display_image_text {
+            text-align:center;
+            padding: 5px;
+            color:#008ccc;
+        }
+    </style>
+</head>
+<body style="margin:0; border:none; padding:0;">
+<div id="btn_display_image"  style="display:none" class="display_image" onclick="showInlineAttachmentTaped()">
+    <div class="display_image_text">
+        显示正文图片
+    </div>
+</div>
+
+<div id="messageContentView" style="">
+    <div id="mailBody" style="">$BLMailBody$</div>
+</div>
+<div id="lastPart" style="height:0px;"></div>
+<iframe src='x-mailcore-msgviewloaded:' style='width: 0px; height: 0px; border: none;'></iframe>
+</body>
+</html>

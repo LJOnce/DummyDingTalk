@@ -1,0 +1,79 @@
+/*
+ Localizable.strings
+ DingTalk
+ 
+ Created by Lings on 14-8-1.
+ Copyright (c) 2014年 Alibaba(China)Technology Co.,Ltd. All rights reserved.
+ */
+
+
+/*
+ 命名規範：模塊.子模塊.控件
+ 比如： "login.verify-input.confirm-btn" = "確認登陸";
+ 
+ 如果包含format，請按以下規範命名：
+ "login.verify-input.error-code %d" = "錯誤的驗證碼 %d";
+ */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+//Common
+"common.ok" = "確定";
+"common.fine" = "好的";
+"common.camera" = "拍照";
+"common.cancel" = "取消";
+"common.loading" = "正在加載...";
+"common.save" = "保存";
+"common.copy" = "複製";
+"common.email" = "郵件";
+"common.processing" = "正在處理...";
+"common.over.image.max.size" = "每張圖片不得超過20M";
+
+"common.done" = "完成";
+"common.saving" = "保存中...";
+"common.save.fail" = "保存失敗";
+"common.save.success" = "保存成功";
+"common.close" = "關閉";
+"common.copy.success" = "復制成功";
+
+
+// Device permission
+"photo.permission.go.settings" =       "設置";
+"photo.permission.album.hint" =        "請在iPhone的“設置-隱私-照片”選項中，允許訪問你的手機相冊。";
+"photo.permission.camera.hint" =       "請在iPhone的“設置-隱私-相機”選項中，允許訪問你的相機。";
+
+
+//Picker
+"picker.original.image" = "原圖";
+"picker.original.image.count" = "原圖 (%@)";
+"picker.original.image.file.count" = "共 (%@)";
+"picker.original.total" = "發送%@張原圖(共%@)";
+"picker.send" = "發送";
+"picker.upload" = "上傳";
+"picker.choose.album" = "照片";
+"picker.dependency.choose.photo.count" = "最多能選擇%d張照片";
+"picker.dependency.choose.photo.icloud" = "該圖片的原件儲存在iCloud，請前往“照片”應用中同步到本地後，再嘗試發送。";
+"picker.dependency.prompt" = "提示";
+"picker.pop.up.album.gallery" = "相冊";
+"picker.pop.up.album.send.photo.count" = "發送%d張照片";
+"picker.btn.preview" = "預覽";
+"picker.video.preview" = "視頻預覽";
+"picker.tips.video.photo.together" = "選擇照片時不能選擇視頻";
+"picker.popup.ding.space" = "釘盤";
+
+//Browser
+"browser.photo.save" = "保存到手機";
+"browser.qrcode.image" = "識別二維碼";
+"browser.qrcode.result" = "識別到以下內容";
+"browser.lookup.original.image" = "查看原圖";
+"browser.lookup.original.image.done" = "已完成";
+"browser.lookup.original.image.fail" = "下載失敗";
+
+"hours" = "小時";
+"hour" = "小時";
+"minutes" = "分";
+"minute" = "分";
+"seconds" = "秒";
+"second" = "秒";

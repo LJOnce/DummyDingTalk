@@ -1,0 +1,1 @@
+{"filter":{"-type":"filter","program":[{"shader":{"-type":"fs","-name":"recall.fs","-input_image":"inputImageTexture","uniform":[{"-type":"sampler2D","-name":"inputTextureY"},{"-type":"sampler2D","-name":"inputTextureU"},{"-type":"sampler2D","-name":"inputTextureV"},{"-type":"sampler2D","-name":"effect_map","-value":"recall.png"}]}}]}}

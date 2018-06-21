@@ -1,0 +1,37 @@
+/* 
+  BLiOSFramework.strings
+  BLiOSFramework
+
+  Created by hewig on 1/30/15.
+  Copyright (c) 2015 Alibaba. All rights reserved.
+*/
+
+CommonSundayAB = "SUN";
+CommonMondayAB = "MON";
+CommonTuesdayAB = "TUE";
+CommonWednesdayAB = "WED";
+CommonThursdayAB = "THU";
+CommonFridayAB = "FRI";
+CommonSaturdayAB = "SAT";
+
+CommonJanuaryAB = "Jan";
+CommonFebruaryAB = "Feb";
+CommonMarchAB = "Mar";
+CommonAprilAB = "Apr";
+CommonMayAB = "May";
+CommonJuneAB = "Jun";
+CommonJulyAB = "Jul";
+CommonAugustAB = "Aug";
+CommonSeptemberAB = "Sep";
+CommonOctoberAB = "Oct";
+CommonNovemberAB = "Nov";
+CommonDecemberAB = "Dec";
+
+CommonDateFormatYYYYMMDD = "yyyy/MM/dd";
+CommonDateFormatMMDD = "MM/dd";
+CommonDateCFormatMD = "%d/%d";
+CommonAlldayEvent = "All Day Event";
+CommonTextJustNow = "Just Now";
+CommonTextYesterday = "Yesterday";
+CommonText1MinAgo = "1 min ago";
+CommonTextMinsAgo = "%d mins ago";

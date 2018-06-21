@@ -1,0 +1,80 @@
+/* 
+  sdk_localized.strings
+  AlimeiSDK
+
+  Created by zixian.qxz on 12/29/14.
+  Copyright (c) 2014 alibaba. All rights reserved.
+*/
+
+CMTitleReplySubjectPrefix = "Re:";
+CMTitleForwardSubjectPrefix = "Fw:";
+CMTitleMailBodyNoReply = "Re:";
+CMTitleRecipientsNamesNoRecipient = "No Recipient";
+CMTitleMailBodyOnDay = "at ";
+CMTitleMailBodyOnTime = "at ";
+CMTitleMailBodyWrites = "Wrote";
+CMTitleMailBodyBelowIsForwardMail = "Fw:";
+CMTitleMailBodySender = "From:";
+CMTitleMailBodyDate = "Date:";
+CMTitleMailBodyReceiver = "Recipient:";
+CMTitleMailBodyCC = "CC:";
+CMTitleMailBodySubject = "Subject:";
+CMTitleMailBodyNoSubject = "No Subject:";
+CMTitleMailComposeReplyReplyDateFormater = "yyyy-MM-dd";
+CMTitleMailLocation = "Location:";
+CMTitleMailAttendeesRequired = "Required:";
+
+PermissionDeniedContacts = "Unable to access your Contacts data. Please enable it in \"Settings\"-\"Privacy\"-\"Contacts\"";
+PermissionDeniedCalendar = "Unable to access your Calendar data. Please enable it in \"Settings\"-\"Privacy\"-\"Calendar\"";
+ErrorMessageCaptchaError = "Please input the correct code";
+ErrorMessageAlilangTokenErrorOrNoEmail = "Email account not exist";
+ErrorMessageLoginQRCodeInvalid = "QRCode invalid";
+ErrorMessageLoginQRCodeNotAllowed = "Current account is not allowed to login,please switch your accout";
+
+// CRR - Calendar Recurrence Rule
+CRRIsRepeat = "This is a repeat event";
+CRRIsException = "This is an exception event";
+CRRNotRepeat = "Not Repeat";
+CRRSuAB = "SUN";
+CRRMoAB = "MON";
+CRRTuAB = "TUE";
+CRRWeAB = "WED";
+CRRThAB = "THU";
+CRRFrAB = "FRI";
+CRRSaAB = "SAT";
+CRRJanAB = "JAN";
+CRRFebAB = "FEB";
+CRRMarAB = "MAR";
+CRRAprAB = "APR";
+CRRMayAB = "MAY";
+CRRJunAB = "JUN";
+CRRJulAB = "JUL";
+CRRAugAB = "AUG";
+CRRSepAB = "SEP";
+CRROctAB = "OCT";
+CRRNovAB = "NOV";
+CRRDecAB = "DEC";
+CRR1st = "1st";
+CRR2nd = "2nd";
+CRR3rd = "3rd";
+CRR4th = "4th";
+CRRxth = "%dth";
+CRRLast = "last";
+CRRAnd = ", ";  // 两个或者多个一律用','连接
+CRROr = " or ";
+CRRDe = "";
+CRRComma = ", ";
+CRRWordSpace = " ";
+CRRDay = "day";
+CRRWorkday = "workday";
+CRRWeekend = "weekend";
+CRRLastDay = "last day";
+CRRMonthday = "day %d";
+CRREachDay = "daily";
+CRREachXDay = "every %d days";
+CRREachWeek = "weekly";
+CRREachXWeek = "every %d weeks";
+CRREachMonth = "monthly";
+CRREachXMonth = "every %d months";
+CRREachYear = "annually";
+CRREachXYear = "every %d years";

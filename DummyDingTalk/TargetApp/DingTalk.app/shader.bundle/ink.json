@@ -1,0 +1,1 @@
+{"filter":{"-type":"filter","program":[{"-id":"0","shader":{"-id":"0","-type":"fs","-name":"ink.fs","-input_image":"inputImageTexture","uniform":[{"-type":"sampler2D","-name":"map","-value":"ink_map.png"},{"-type":"sampler2D","-name":"inputTextureY"},{"-type":"sampler2D","-name":"inputTextureU"},{"-type":"sampler2D","-name":"inputTextureV"}]}}]}}

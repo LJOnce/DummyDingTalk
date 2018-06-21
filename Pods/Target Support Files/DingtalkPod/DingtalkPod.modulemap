@@ -1,0 +1,6 @@
+framework module DingtalkPod {
+  umbrella header "DingtalkPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

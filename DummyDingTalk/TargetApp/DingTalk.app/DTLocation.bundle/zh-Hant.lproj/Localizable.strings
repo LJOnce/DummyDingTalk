@@ -1,0 +1,48 @@
+/*
+ Localizable.strings
+ DTLocation
+ 
+ Created by 驽良 on 16-6-8.
+ Copyright (c) 2016年 Alibaba(China)Technology Co.,Ltd. All rights reserved.
+ */
+
+
+/*
+ 命名規範：模塊.子模塊.控件
+ 比如： "login.verify-input.confirm-btn" = "確認登陸";
+ 
+ 如果包含format，請按以下規範命名：
+ "login.verify-input.error-code %d" = "錯誤的驗證碼 %d";
+ */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+"dt_oa_attend_assist_origin" = "出發地";
+"dt_oa_attend_assist_arrive" = "到達地";
+"dt_oa_attend_assist_set" = "更多";
+"dt_oa_attend_assist_dulwork" = "距離上班";
+"dt_oa_attend_assist_arrivetime" = "預計到達時間";
+"dt_oa_attend_assist_distance" = "距考勤地點";
+"dt_oa_attend_assist_type" = "設置上班出行方式";
+"dt_oa_attend_assist_typetext" = "上班助手會根據妳的出行方式計算提醒妳的時間";
+"dt_oa_attend_assist_setbtn" = "設置出發地";
+"dt_oa_attend_assist_setapn" = "開啟提醒";
+"dt_oa_attend_assist_setapntext" = "開啟後，每天早上智能提醒路途時間及天氣";
+"dt_oa_attend_assist_loactionisnull" = "點擊設置";
+"dt_oa_attend_assist_arriveisnull" = "暫無";
+"dt_oa_attend_assist_alreadywork" = "已上班";
+"dt_oa_attend_assist_alreadylate" = "已遲到";
+"dt_oa_attend_assist_start" = "起點";
+"dt_oa_attend_assist_end" = "終點";
+"dt_oa_attend_assist_title" = "上班助手";
+"dt_oa_attend_assist_min" = "分鐘";
+"dt_oa_attend_assist_sec" = "秒";
+"dt_oa_attend_assist_hour" = "小時";
+"dt_oa_attend_assist_km" = "公裏";
+"dt_oa_attend_assist_metres" = "米";
+"dt_oa_attend_assist_net_error" = "網絡異常";
+"dt_oa_attend_assist_absence" = "今日休息";
+"dt_oa_attend_assist_nearest" = "起點終點太近，建議使用步行方案";
+"dt_oa_attend_assist_routesnull" = "路線査詢失敗";

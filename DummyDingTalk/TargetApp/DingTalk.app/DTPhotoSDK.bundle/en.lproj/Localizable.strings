@@ -1,0 +1,81 @@
+/*
+ Localizable.strings
+ DingTalk
+ 
+ Created by Lings on 14-8-1.
+ Copyright (c) 2014年 Alibaba(China)Technology Co.,Ltd. All rights reserved.
+ */
+
+
+/*
+ 命名规范：模块.子模块.控件
+ 比如： "login.verify-input.confirm-btn" = "确认登陆";
+ 
+ 如果包含format，请按以下规范命名：
+ "login.verify-input.error-code %d" = "错误的验证码 %d";
+ */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+//Common
+"common.ok" = "OK";
+"common.fine" = "OK";
+"common.camera" = "Camera";
+"common.cancel" = "Cancel";
+"common.loading" = "Loading...";
+"common.save" = "Save";
+"common.copy" = "Copy";
+"common.email" = "Email";
+"common.processing" = "Processing...";
+
+"common.done" = "Done";
+"common.saving" = "Preservation...";
+"common.save.fail" = "Failure";
+"common.save.success" = "Success";
+"common.close" = "Close";
+"common.copy.success" = "Success";
+
+"common.over.image.max.size" = "The maximum size of picture is 20M bytes";
+
+
+// Device permission
+"photo.permission.go.settings" =       "Settings";
+"photo.permission.album.hint" =        "Allow access your album in \"Settings\" -> \"Privacy\" -> \"Photos\"";
+"photo.permission.camera.hint" =       "Allow access your camera in \"Settings\" -> \"Privacy\" -> \"Camera\"";
+
+
+//Picker
+"picker.original.image" = "Original photo(s)";
+"picker.original.image.count" = "Original photo(s) (%@)";
+"picker.original.image.file.count" = "Total photo(s) (%@)";
+"picker.original.total" = "Send %@ original photo(s) (%@)";
+"picker.send" = "Send";
+"picker.upload" = "Upload";
+"picker.choose.album" = "Photos";
+"picker.dependency.choose.photo.count" = "The max photo is limited to %1$d";
+"picker.dependency.choose.photo.icloud" = "The original image stored in iCloud, please open \"Photos\" and synchronize to  local storage, then try to send again.";
+"picker.dependency.prompt" = "Tip";
+"picker.pop.up.album.gallery" = "Photos";
+"picker.pop.up.album.send.photo.count" = "Send %d photo(s)";
+"picker.btn.preview" = "Preview";
+"picker.video.preview" = "Preview";
+"picker.tips.video.photo.together" = "You cannot select a photo and video at the same time.";
+"picker.popup.ding.space" = "Space";
+
+//Browser
+"browser.photo.save" = "Save Image";
+"browser.qrcode.image" = "Scan QR Code";
+"browser.qrcode.result" = "QR Code Result";
+"browser.lookup.original.image" = "Full Image";
+"browser.lookup.original.image.done" = "Done";
+"browser.lookup.original.image.fail" = "Failure";
+
+"hours" = "hours";
+"hour" = "hour";
+"minutes" = "minutes";
+"minute" = "minute";
+"seconds" = "seconds";
+"second" = "second";
+

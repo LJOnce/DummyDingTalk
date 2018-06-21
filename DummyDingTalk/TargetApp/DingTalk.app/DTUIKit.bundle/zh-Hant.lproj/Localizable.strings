@@ -1,0 +1,24 @@
+/*
+ Localizable.strings
+ DingTalk
+ 
+ Created by Lings on 14-8-1.
+ Copyright (c) 2014年 Alibaba(China)Technology Co.,Ltd. All rights reserved.
+ */
+
+
+/*
+ 命名規範：模塊.子模塊.控件
+ 比如： "login.verify-input.confirm-btn" = "確認登陸";
+ 
+ 如果包含format，請按以下規範命名：
+ "login.verify-input.error-code %d" = "錯誤的驗證碼 %d";
+ */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+"dtuikit.common.back" = "返回";
+"dtuikit.common.copy" = "複製";
+"dtuikit.common.delete" = "删除";

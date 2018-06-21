@@ -1,0 +1,37 @@
+/* 
+  BLiOSFramework.strings
+  BLiOSFramework
+
+  Created by hewig on 1/30/15.
+  Copyright (c) 2015 Alibaba. All rights reserved.
+*/
+
+CommonSundayAB = "周日";
+CommonMondayAB = "周一";
+CommonTuesdayAB = "周二";
+CommonWednesdayAB = "周三";
+CommonThursdayAB = "周四";
+CommonFridayAB = "周五";
+CommonSaturdayAB = "周六";
+
+CommonJanuaryAB = "1月";
+CommonFebruaryAB = "2月";
+CommonMarchAB = "3月";
+CommonAprilAB = "4月";
+CommonMayAB = "5月";
+CommonJuneAB = "6月";
+CommonJulyAB = "7月";
+CommonAugustAB = "8月";
+CommonSeptemberAB = "9月";
+CommonOctoberAB = "10月";
+CommonNovemberAB = "11月";
+CommonDecemberAB = "12月";
+
+CommonDateFormatYYYYMMDD = "yyyy年MM月dd日";
+CommonDateFormatMMDD = "MM月dd日";
+CommonDateCFormatMD = "%d月%d日";
+CommonAlldayEvent = "全天事件";
+CommonTextJustNow = "刚刚";
+CommonTextYesterday = "昨天";
+CommonText1MinAgo = "1分钟前";
+CommonTextMinsAgo = "%d分钟前";

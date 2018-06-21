@@ -1,0 +1,320 @@
+/*
+ uikit_localized.strings
+ AlimeiUIKit
+ 
+ Created by Hongyu on 1/14/15.
+ Copyright (c) 2015 Alibaba-inc. All rights reserved.
+ */
+CommonActionButtonCancel          = "Cancel";
+CommonActionButtonDelete          = "Delete";
+CommonActionButtonPreview         = "Preview";
+CommonActionButtonConfirmDownload = "Confirm Downloading";
+CommonActionButtonOK              = "OK";
+CommonActionButtonConfirm         = "Confirm";
+CommonActionButtonClose           = "Close";
+CommonActionButtonFinished        = "Finish";
+CommonActionButtonAccept          = "Accept";
+CommonActionButtonReject          = "Reject";
+CommonActionButtonSuspend         = "Suspend";
+CommonActionButtonMove            = "Move";
+CommonLoading                     = "Loading...";
+CommonActionButtonBack            = "Back";
+
+CommonTitleNetworkError           = "Network Error";
+
+CommonSundayAB = "SUN";
+CommonMondayAB = "MON";
+CommonTuesdayAB = "TUE";
+CommonWednesdayAB = "WED";
+CommonThursdayAB = "THU";
+CommonFridayAB = "FRI";
+CommonSaturdayAB = "SAT";
+
+CommonJanuaryAB = "Jan";
+CommonFebruaryAB = "Feb";
+CommonMarchAB = "Mar";
+CommonAprilAB = "Apr";
+CommonMayAB = "May";
+CommonJuneAB = "Jun";
+CommonJulyAB = "Jul";
+CommonAugustAB = "Aug";
+CommonSeptemberAB = "Sep";
+CommonOctoberAB = "Oct";
+CommonNovemberAB = "Nov";
+CommonDecemberAB = "Dec";
+
+CommonToday       = "Today";
+CommonYesterday   = "Yesterday";
+CommonThisWeek    = "This Week";
+CommonLastWeek    = "One week ago";
+CommonLastTwoWeek = "Two weeks ago";
+CommonThisMonth   = "This Month";
+CommonLastMonth   = "One month ago";
+CommonLastXMonth  = "%d months ago";
+CommonLastYear    = "One year ago";
+CommonMoreEarlier = "More earlier";
+
+FolderDisplayNameInbox = "Inbox";
+FolderDisplayNameDraft = "Drafts";
+FolderDisplayNameTrash = "Deleted";
+FolderDisplayNameSent = "Sent";
+FolderDisplayNameSpam = "Spam";
+FolderDisplayNameCalendar = "My Calendar";
+FolderDisplayNameContact = "Contacts";
+FolderDisplayNameRecentContact = "Recent Contacts";
+FolderDisplayNameBlacklist = "Black List";
+
+UserLabelFolderRecentRead = "Recent Read";
+UserLabelFolderFlag = "Flagged";
+UserLabelFolderOutbox = "Outbox";
+UserLabelFolderToBeDeleted = "to be deleted";
+UserLabelFolderTempSearchResult = "search temp folder";
+UserLabelFolderTempEMLParse = "parse EML temp folder";
+UserLabelFolderComposingMail = "Editing";
+UserLabelFolderCalendarOutbox = "to be sent";
+UserLabelFolderCalendarToBeDeleted = "to be deleted";
+UserLabelFolderContactToBeUpdated = "to be updated";
+UserLabelFolderPhoneContactTemp = "phone contact temp";
+
+//Compose Mail
+CMTitleLoading              = "loading...";
+CMTitleLoadingMail          = "Loading Mail...";
+CMTitleDealPastedImage      = "Processing pasted image";
+CMTitleZipImage             = "Compressing images";
+CMTitleDiscardUpdate        = "Discard Update";
+CMTitleSaveUpdate           = "Save Update";
+CMTitleDeleteDraft          = "Delete Draft";
+CMTitleSaveDraft            = "Save Draft";
+CMTitleTo                   = "To";
+CMTitleCC                   = "Cc";
+CMTitleBC                   = "Bcc";
+CMCCANDBCC                  = "Cc/Bcc,Sender";
+CMSender                    = "Sender:";
+CMTitleSubject              = "Subject";
+CMTitleBody                 = "Input here";
+CMTitleNewMail              = "New Mail";
+CMTitleReplyMail            = "Reply Mail";
+CMTitleForwardMail          = "Forward Mail";
+CMTitleDraft                = "Draft";
+CMTitleRecomendSubject      = "I strongly recommend you to use this e-mail client app";
+CMRecommendContent = "<div><br>HI~<br>I am sending e-mails with %@ client app, it is very convenient to use! You can use it as well.<br><br><div><a href=\"%@\">Click here to install %@.</a></div><br></div>";
+CMTitleToInvalid            = "Invalid Recipient";
+CMTitleBCInvalid            = "Invalid Bcc";
+CMTitleCCInvalid            = "Invalid Cc";
+CMTitleTOContainInvalid     = "Invalid Recipient(%@)";
+CMTitleCCContainInvalid     = "Invalid Cc(%@)";
+CMTitleBCContainInvalid     = "Invalid Bcc(%@)";
+CMTitleChooseAttachmentSize = "You can scale your photos in attachment, please choose the size below";
+CMTitleAttachmentSizeBig    = "Big";
+CMTitleAttachmentSizeMiddle = "Middle";
+CMTitleAttachmentSizeSmall  = "Small";
+CMTitleAttachmentSizeActual = "Actual";
+CMTitleAttachmentFileName   = "photo %@.jpg";
+CMTitlePhoto                = "Photo";
+CMTitleCamera               = "Camera";
+CMTitleSendMailSuccess      = "Post Mail Success";
+CMTitleSendMailFail         = "Post Mail Fail";
+CMTitleSaveDraftSuccess     = "Save draft success";
+CMTitleSaveDraftFail        = "Save draft fail";
+CMTitleLoadMailFail         = "Failed to load mail";
+CMComposeQuoteDivName       = "Include quote body";
+CMTitleAttachmentsInvalid   = "Invalid Attachments：%@";
+CMAssetMenuViewChooseFormat = "%tu photos selected";
+CMAssetMenuViewChooseOne    = "1 photo selected";
+
+CommonMessageCameraPermissionTip = "Please allow %@ to access your camera in \"Settings-Privacy-Camera\"";
+CommonMessageAlbumPermissionTip  = "Please allow %@ to access your album in \"Settings-Privacy-Photos\"";
+CommonTitleNoCameraPermission    = "Can not access camera";
+CommonTitleNoAlbumPermission     = "Can not access photos";
+
+PreviewTitleDownloadAttachment   = "The attachment is larger than 1MB，Are you sure you want to download it using 2G/3G networking?";
+
+CMTitleReplySubjectPrefix = "Re:";
+CMTitleForwardSubjectPrefix = "Fw:";
+CMTitleMailBodyNoReply = "Re:";
+CMTitleRecipientsNamesNoRecipient = "No Recipient";
+CMTitleMailBodyOnDay = "at ";
+CMTitleMailBodyOnTime = "at ";
+CMTitleMailBodyWrites = "Wrote";
+CMTitleMailBodyBelowIsForwardMail = "Fw:";
+CMTitleMailBodySender = "From:";
+CMTitleMailBodyDate = "Date:";
+CMTitleMailBodyReceiver = "Recipient:";
+CMTitleMailBodyCC = "CC:";
+CMTitleMailBodySubject = "Subject:";
+CMTitleMailBodyNoSubject = "No Subject:";
+CMTitleMailComposeReplyReplyDateFormater = "yyyy-MM-dd";
+CMTitleMailComposeReplyReplyDateTimeFormater = "yyyy-MM-dd HH:mm:ss";
+CMTitleMailLocation = "Location:";
+CMTitleMailAttendeesRequired = "Required:";
+
+/*mailDetail*/
+MailDetailLabelReceiveDate = "Date";
+MailDetailLabelMe = "Me";
+MailDetailLabelTo = "To";
+MailDetailLabelCc = "Cc";
+MailDetailActionSheetReply = "Reply";
+MailDetailActionSheetReplyAll = "Reply All";
+MailDetailActionSheetForward = "Forward";
+MailDetailAcitonSheetCancel = "Cancel";
+MailDetailFormatType = "%d / %d";
+MailDetailAttachment = "File:";
+MailDetailRemindDelayThreeHours = "3 hours later";
+MailDetailRemind9AMTommrow = "Tomorrow";
+MailDetailRemindNextMonday9Am = "Next Mon";
+MailDetailRemindNextMonth1st9Am = "1st month";
+MailDetailRemindCustomDate = "Custom date";
+MailDetailRemindCancel = "Cancel reminder";
+MailDetailSetReminder = "Set Reminder";
+MailDetailMoveMail = "Move Mail";
+MailDetailRemindTitle = "Reminder";
+MailDetailRemindDate = "Date";
+MailDetailReload = "reload";
+MailDetailAlertMessageChooseFuture = "Please choose a future time";
+MailHeaderViewLabelSender = "From";
+MailHeaderViewButtonShowInfo = "Show Info";
+MailHeaderViewLabelNoSubject = "No Subject";
+MailInfoViewButtonHideDetail = "Hide Detail";
+MailInfoViewButtonShowDetail = "Show Detail";
+MailViewItemMarkStar = "Flag";
+MailViewItemMarkNoStar = "Remove Flag";
+
+MailAttachListAlertNoAvaliableApp = "No Apps can view this file";
+
+MailFolderListMyFolders = "My Folders";
+
+MeetingAreaViewButtonConfirm = "Accept";
+MeetingAreaViewButtonDecline = "Decline";
+MeetingAreaViewButtonDecideLater = "Later";
+MeetingAreaViewLabelLocation = "None";
+MeetingAreaViewLabelMeetingCancel = "Meeting canceled";
+MeetingAreaViewLabelReplyMail = "Reply mail";
+MeetingAreaViewLabelOwner = "You are the owner";
+MeetingAreaViewLabelExpired = "Meeting invalid";
+MeetingAreaViewSheetRely = "Reply or not?";
+MeetingAreaViewSheetCancel = "Canceled";
+MeetingAreaViewSheetConfirm = "Confirm";
+
+CalendarTitleAttendee = "Attendee";
+CalendarTitleNewSchedule = "New Schedule";
+CalendarTitleNewInvitation = "New Invitation";
+CalendarTitleEditSchedule = "Edit Schedule";
+CalendarTitleEditInvitation = "Edit Invitation";
+CalendarTitleCancelSchedule = "Cancel Schedule";
+CalendarTitleCancelInvitation = "Cancel Invitation";
+CalendarTitleForwardSchedule = "Forward Schedule";
+CalendarTitleForwardInvitation = "Forward Invitation";
+CalendarTitleScheduleDetail = "Schedule Detail";
+CalendarTitleInvitationDetail = "Invitation Detail";
+CalendarTitleSubject = "Subject";
+CalendarTitleNoSubject = "No Subject";
+CalendarTitleLocation = "Location";
+CalendarTitleNoAlarm = "No Alarm";
+CalendarTitleRepeat = "Repeat";
+CalendarTitleAlarm = "Alarm";
+CalendarTitleEndRepeat = "End Repeat";
+CalendarTitleDeadline = "Choose Deadline";
+CalendarTitleCalendarSource = "Calendar Source";
+CalendarTitleFilterCalendarSource = "Show Source";
+CalendarTitleExpired = "Expired";
+CalendarTitleAccept = "Accept";
+CalendarTitleReject = "Reject";
+CalendarTitleSuspend = "Suspend";
+CalendarTitleNoResponse = "No Response";
+CalendarTitleToday = "Today";
+CalendarCategoryMine = "My Calendar";
+CalendarCategoryShared = "Shared Calendar";
+CalendarAttendeeStatusAccepted = "Accepted";
+CalendarAttendeeStatusRejected = "Rejected";
+CalendarAttendeeStatusSuspended = "Suspended";
+CalendarAttendeeStatusNoResponse = "No Response";
+CalendarViewSttendeeStatus = "Attendee Response";
+
+CalendarCreatingCalendar = "Creating calendar";
+CalendarDeletingCalendar = "Deleting calendar";
+CalendarUpdatingCalendar = "Updating calendar";
+CalendarResponsingInvitation = "Responsing invitation";
+CalendarResponseSuccess = "Response sent";
+
+CalendarTitleDateSelectionError = "Choose fail";
+CalendarMessageDateSelectionError = "The begin date must be earlier than the end date";
+
+CalendarAlarmBeforeWeek = "Before %d Week";
+CalendarAlarmBeforeWeeks = "Before %d Weeks";
+CalendarAlarmBeforeDay = "Before %d Day";
+CalendarAlarmBeforeDays = "Before %d Days";
+CalendarAlarmBeforeHour = "Before %d Hour";
+CalendarAlarmBeforeHours = "Before %d Hours";
+CalendarAlarmBeforeMin = "Before %d Minute";
+CalendarAlarmBeforeMins = "Before %d Minutes";
+
+/*CalendarRemind.plist*/
+CalendarAlarmBefore5Mins = "Before 5 Minutes";
+CalendarAlarmBefore15Mins = "Before 15 Minutes";
+CalendarAlarmBefore30Mins = "Before 30 Minutes";
+CalendarAlarmBefore1Hour = "Before 1 Hour";
+CalendarAlarmBefore2Hours = "Before 2 Hours";
+CalendarAlarmBefore1Day = "Before 1 Day";
+CalendarAlarmBefore2Days = "Before 2 Days";
+CalendarAlarmBefore1Week = "Before 1 Week";
+
+CalendarAlarmOccuring = "When Event Occurs";
+CalendarAlarmNoAlarm = "No Alarm";
+CalendarAlarmOccuringPrefix = "at date";
+CalendarAlarmRepeatEvent = "This is a repeat event";
+
+CalendarTitleFrequencyChoose = "Repeat Frequency";
+CalendarFrequencyNever = "Never";
+CalendarFrequencyByDay = "Every day";
+CalendarFrequencyByWeek = "Every week";
+CalendarFrequencyByTwoWeeks = "Every two weeks";
+CalendarFrequencyByMonth = "Every month";
+CalendarFrequencyByYear = "Every year";
+CalendarAllDayEvent = "All Day Event";
+CalendarLocationPlaceholder = "Type location";
+
+/*ChooseFolderViewController*/
+FolderVCTitleMoveTo = "Move to";
+
+/*TITokenField*/
+TokenFieldOneAndOthers = "%@, and the other %d";
+
+/*CalendarView*/
+CalendarViewTextNoSubject = "No Subject";
+CalendarViewTextRemindTime = "Remind %@";
+
+/*CalendarViewCongroller*/
+/*ChooseCalendarRemindViewController*/
+CalendarVCLabelNoTodo = "No Schedule";
+CalendarVCTitleChooseRemindTime = "Choose reminder time";
+
+MessageViewLabelLoading = "Loading...";
+MessageViewLabelAlertNoDetail = "Unable to load, please try again later.";
+
+/*RichEditorViewController*/
+RichEditorVCLabelLoading = "Loading...";
+RichEditorVCLabelLoadFailed = "Failed to load mail, please try again later.";
+
+"Loading..."                              ="Loading...";
+"Select an Album"                         ="Select an Album";
+"Okay"                                    ="Okay";
+"Pick Photo"                              ="Pick Photo";
+"Pick Photos"                             ="Pick Photos";
+
+CalendarTotalAttendeesFormat = "%d people";/*DatePickerView*/
+DatePickerViewButtonSave = "Done";
+DatePickerViewLabelAM = "AM";
+DatePickerViewLabelPM = "PM";
+
+DentrySaveFile           = "Save to Space";
+DentrySendToContact      = "Send to";
+DentryDownloadingFmt     = "Downloading...(%@/%@)";
+DentryDownladFailure     = "Downlad failure";
+DentryCancelDownloadBtnTitle = "Pause";
+DentryResumeDownloadTitle = "Resume";
+DentryReDownloadBtnTitle = "Redownload";
+DentryDownloadBtnTitle   = "Download";
+DentryOpenInOther        = "Open";
+DentrySaveFileSuccess    = "Save Success";
+
+

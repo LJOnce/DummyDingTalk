@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048DF6AEF12D3A592F894E6BA009DB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FC19170AF300065AE127B7A56A2A89 /* Foundation.framework */; };
+		13FE0CC90504F6B78184D166828FE2C2 /* CaptainHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7935C29D95E993F98318F9A83FDE4551 /* CaptainHook.m */; };
+		1B1CC66A30F8A3C26E0688E84DC9388C /* Pods-DummyDingTalkDylib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D533C72F4D5E2D777AEC567B9D2A2196 /* Pods-DummyDingTalkDylib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		391DE8AB483B65BD90D61293C7C35DF8 /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = B5609DB410857A0806EF272649C8D2D0 /* CaptainHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48DBFFDF742C316F00C8568F871B29C3 /* DingtalkPluginConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4367AE285D9F086CE9920C034C983C6D /* DingtalkPluginConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49504EE295C78CA22ADD010AFD25212B /* DingtalkPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB08952E2B160F2115F09D9B682D0C2 /* DingtalkPod-dummy.m */; };
+		5B779CA8E5E087F1E3441EE338E996BF /* Pods-DummyDingTalk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4226D8E1808EF4282B7DB1D31FFFA70 /* Pods-DummyDingTalk-dummy.m */; };
+		74116CEA196DDC20FAF3B66E3C010A76 /* DingtalkPod.h in Headers */ = {isa = PBXBuildFile; fileRef = CE585C16BA2162B44EE4E591A66246FD /* DingtalkPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CF1B7F73466CD43ECD8A1E038C5B32 /* Pods-DummyDingTalkDylib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC03DA5BC8E9F82378B9E5901B6DF7 /* Pods-DummyDingTalkDylib-dummy.m */; };
+		82CB796F10E4F06818076A908FA6BAE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FC19170AF300065AE127B7A56A2A89 /* Foundation.framework */; };
+		9230F6E2BA5307E5B6044EA0BBE5BF12 /* DingtalkPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 714C8E4EB6E5336C1EA0D1486D2F8742 /* DingtalkPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		929E184D4912C5260FBC151DC7C9A025 /* DingtalkPod.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D84E3ED3AAD3AC3DEF99FC384F2F99 /* DingtalkPod.m */; };
+		98C954C90428D35CE59241F43688E76C /* dingdingDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BDA3CDA6220691D8ABD7EF3DC05F2 /* dingdingDylib.m */; };
+		D50C19E073B3D806FD33DAEEF8B3FB22 /* DingtalkPluginConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED7D687F12538BCFC9733BE65E98A7 /* DingtalkPluginConfig.m */; };
+		E42C1A994687EF4639B9D3F1AC972B39 /* CaptainHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC88A98297E4D849AA911B764B16179 /* CaptainHook-dummy.m */; };
+		E89FD6969B65428C524D7905EF293417 /* CaptainHook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CEF6A8E7EF3E49ABAD09F2B5FC31A9 /* CaptainHook.framework */; };
+		FBDEBB7C1283B93873DCE3EA3362BB5F /* CaptainHook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E6342D9A282DAF1374A280666C722A /* CaptainHook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFDE5C2C3336A0E42C1E93334E30C9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FC19170AF300065AE127B7A56A2A89 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		148B3FD06719CB1D954BE694C36D64D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B08C488B63CA7F8933DAF93C62B4D2;
+			remoteInfo = CaptainHook;
+		};
+		1F50567B707BAC3690299921A8D5B2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369D763DACCFE8EAD08074F0B476F5FD;
+			remoteInfo = DingtalkPod;
+		};
+		9C807619F42D4AB376A0B5A91295B076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B08C488B63CA7F8933DAF93C62B4D2;
+			remoteInfo = CaptainHook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FC19170AF300065AE127B7A56A2A89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		17AF00C2ACF16E6C8EF05B62F662D88F /* Pods-DummyDingTalkDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DummyDingTalkDylib.release.xcconfig"; sourceTree = "<group>"; };
+		239BDA3CDA6220691D8ABD7EF3DC05F2 /* dingdingDylib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dingdingDylib.m; path = DingtalkPod/dingdingDylib.m; sourceTree = "<group>"; };
+		2CF5478FB977BA4AD9380234C0C7196E /* CaptainHook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CaptainHook.modulemap; sourceTree = "<group>"; };
+		30B0632653BE2F0E92FF446A629E5927 /* Pods_DummyDingTalkDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DummyDingTalkDylib.framework; path = "Pods-DummyDingTalkDylib.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F5FE8B3729563C0DC6869398D993ED /* Pods-DummyDingTalk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DummyDingTalk-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33E6342D9A282DAF1374A280666C722A /* CaptainHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaptainHook-umbrella.h"; sourceTree = "<group>"; };
+		34F1631A5DC501AFCABEBB56BC2534E9 /* Pods-DummyDingTalkDylib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DummyDingTalkDylib-acknowledgements.plist"; sourceTree = "<group>"; };
+		35A1CE6DF3E835A1B2CA384C7F8B018B /* CaptainHook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CaptainHook.xcconfig; sourceTree = "<group>"; };
+		4367AE285D9F086CE9920C034C983C6D /* DingtalkPluginConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DingtalkPluginConfig.h; path = DingtalkPod/DingtalkPluginConfig.h; sourceTree = "<group>"; };
+		464BD316B59D7344BA45ADDAB9E2EC18 /* Pods-DummyDingTalkDylib-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DummyDingTalkDylib-resources.sh"; sourceTree = "<group>"; };
+		590AFE81D7202BE6B4C56C4CF3DB944A /* Pods-DummyDingTalk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DummyDingTalk-acknowledgements.plist"; sourceTree = "<group>"; };
+		593F6AB79033B23A9FB3E97D18543A39 /* Pods-DummyDingTalkDylib-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DummyDingTalkDylib-frameworks.sh"; sourceTree = "<group>"; };
+		5D17062F95B5D1E42EE74F07FA4D0FB4 /* Pods-DummyDingTalkDylib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DummyDingTalkDylib.modulemap"; sourceTree = "<group>"; };
+		65CEF6A8E7EF3E49ABAD09F2B5FC31A9 /* CaptainHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CaptainHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714C8E4EB6E5336C1EA0D1486D2F8742 /* DingtalkPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DingtalkPod-umbrella.h"; sourceTree = "<group>"; };
+		7484FDDCB461DE0AB0ED354FE1981320 /* Pods-DummyDingTalk-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DummyDingTalk-resources.sh"; sourceTree = "<group>"; };
+		7935C29D95E993F98318F9A83FDE4551 /* CaptainHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CaptainHook.m; sourceTree = "<group>"; };
+		7EB1CB6E83CB1C0193247D652C35A8BB /* Pods-DummyDingTalkDylib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DummyDingTalkDylib-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EBC03DA5BC8E9F82378B9E5901B6DF7 /* Pods-DummyDingTalkDylib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DummyDingTalkDylib-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A250A203E0661F69EB577550251BF772 /* Pods-DummyDingTalk-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DummyDingTalk-frameworks.sh"; sourceTree = "<group>"; };
+		A5B6290C850AE8AC0AE03AB24C48220D /* DingtalkPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DingtalkPod.modulemap; sourceTree = "<group>"; };
+		B04563F19B99E65D021814485C2B6E21 /* Pods-DummyDingTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DummyDingTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		B50A51E10FD7E01339FB59C9C88CDF35 /* DingtalkPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DingtalkPod-prefix.pch"; sourceTree = "<group>"; };
+		B5609DB410857A0806EF272649C8D2D0 /* CaptainHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CaptainHook.h; sourceTree = "<group>"; };
+		BDC88A98297E4D849AA911B764B16179 /* CaptainHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CaptainHook-dummy.m"; sourceTree = "<group>"; };
+		C7D84E3ED3AAD3AC3DEF99FC384F2F99 /* DingtalkPod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DingtalkPod.m; path = DingtalkPod/DingtalkPod.m; sourceTree = "<group>"; };
+		CB5139052CA75BF3AAE251B5164E7D46 /* DingtalkPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DingtalkPod.xcconfig; sourceTree = "<group>"; };
+		CBED7D687F12538BCFC9733BE65E98A7 /* DingtalkPluginConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DingtalkPluginConfig.m; path = DingtalkPod/DingtalkPluginConfig.m; sourceTree = "<group>"; };
+		CE585C16BA2162B44EE4E591A66246FD /* DingtalkPod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DingtalkPod.h; path = DingtalkPod/DingtalkPod.h; sourceTree = "<group>"; };
+		CFB08952E2B160F2115F09D9B682D0C2 /* DingtalkPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DingtalkPod-dummy.m"; sourceTree = "<group>"; };
+		D533C72F4D5E2D777AEC567B9D2A2196 /* Pods-DummyDingTalkDylib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DummyDingTalkDylib-umbrella.h"; sourceTree = "<group>"; };
+		D7B10BBC3D548CDC6BDF9EEBE7A44866 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9F066D6A8CB4F841B1B8A48C5C9F5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE3E602A87DC53074E5D0E641F421C7 /* DingtalkPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DingtalkPod.framework; path = DingtalkPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0DD77D05DC1BA50ADE9698B89232BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79EC62B0B25659DC593A638A6DB99E8 /* libPods-DummyDingTalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DummyDingTalk.a"; path = "libPods-DummyDingTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF55A9BB679450F1656614BE7732B4DA /* CaptainHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaptainHook-prefix.pch"; sourceTree = "<group>"; };
+		F4226D8E1808EF4282B7DB1D31FFFA70 /* Pods-DummyDingTalk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DummyDingTalk-dummy.m"; sourceTree = "<group>"; };
+		F6D3B4906E7358E32CF848C077CC6584 /* Pods-DummyDingTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DummyDingTalk.release.xcconfig"; sourceTree = "<group>"; };
+		FBD56F5D9E9BD4215C6674C944CC7F85 /* CaptainHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CaptainHook.framework; path = CaptainHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0CDBB0B2AA16A60422ACB2CD71A6F0 /* Pods-DummyDingTalkDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DummyDingTalkDylib.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1B66FC446D89C3CFF83A1CF693CDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89FD6969B65428C524D7905EF293417 /* CaptainHook.framework in Frameworks */,
+				82CB796F10E4F06818076A908FA6BAE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5B1DE795A754F5788CA9A01F2FF621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C936E342979697476B391D725DBDCBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DF6AEF12D3A592F894E6BA009DB99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92D15635CCA9F08A0AE0D25A42E057D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE5C2C3336A0E42C1E93334E30C9B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2444E58E371BFD65454EA5203C6EEFCA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				00FC19170AF300065AE127B7A56A2A89 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3478D6B0C49865172739CE09946B98C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6290C850AE8AC0AE03AB24C48220D /* DingtalkPod.modulemap */,
+				CB5139052CA75BF3AAE251B5164E7D46 /* DingtalkPod.xcconfig */,
+				CFB08952E2B160F2115F09D9B682D0C2 /* DingtalkPod-dummy.m */,
+				B50A51E10FD7E01339FB59C9C88CDF35 /* DingtalkPod-prefix.pch */,
+				714C8E4EB6E5336C1EA0D1486D2F8742 /* DingtalkPod-umbrella.h */,
+				DC0DD77D05DC1BA50ADE9698B89232BD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DingtalkPod";
+			sourceTree = "<group>";
+		};
+		3D0659D08923FD21177C6A0FF191DFF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD56F5D9E9BD4215C6674C944CC7F85 /* CaptainHook.framework */,
+				DBE3E602A87DC53074E5D0E641F421C7 /* DingtalkPod.framework */,
+				E79EC62B0B25659DC593A638A6DB99E8 /* libPods-DummyDingTalk.a */,
+				30B0632653BE2F0E92FF446A629E5927 /* Pods_DummyDingTalkDylib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EBBE15E1868BEC281A5CA79B9D3198B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AD7D404BEF6E634D2A8586DFF54DBB3 /* Pods-DummyDingTalk */,
+				7571D356D32CEFACF4A1E5872E57082E /* Pods-DummyDingTalkDylib */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		62EFB4C81D2854C3AFD95EB6167A3BB5 /* DingtalkPod */ = {
+			isa = PBXGroup;
+			children = (
+				239BDA3CDA6220691D8ABD7EF3DC05F2 /* dingdingDylib.m */,
+				4367AE285D9F086CE9920C034C983C6D /* DingtalkPluginConfig.h */,
+				CBED7D687F12538BCFC9733BE65E98A7 /* DingtalkPluginConfig.m */,
+				CE585C16BA2162B44EE4E591A66246FD /* DingtalkPod.h */,
+				C7D84E3ED3AAD3AC3DEF99FC384F2F99 /* DingtalkPod.m */,
+				3478D6B0C49865172739CE09946B98C9 /* Support Files */,
+			);
+			name = DingtalkPod;
+			path = DingtalkPod;
+			sourceTree = "<group>";
+		};
+		7571D356D32CEFACF4A1E5872E57082E /* Pods-DummyDingTalkDylib */ = {
+			isa = PBXGroup;
+			children = (
+				DA9F066D6A8CB4F841B1B8A48C5C9F5F /* Info.plist */,
+				5D17062F95B5D1E42EE74F07FA4D0FB4 /* Pods-DummyDingTalkDylib.modulemap */,
+				7EB1CB6E83CB1C0193247D652C35A8BB /* Pods-DummyDingTalkDylib-acknowledgements.markdown */,
+				34F1631A5DC501AFCABEBB56BC2534E9 /* Pods-DummyDingTalkDylib-acknowledgements.plist */,
+				7EBC03DA5BC8E9F82378B9E5901B6DF7 /* Pods-DummyDingTalkDylib-dummy.m */,
+				593F6AB79033B23A9FB3E97D18543A39 /* Pods-DummyDingTalkDylib-frameworks.sh */,
+				464BD316B59D7344BA45ADDAB9E2EC18 /* Pods-DummyDingTalkDylib-resources.sh */,
+				D533C72F4D5E2D777AEC567B9D2A2196 /* Pods-DummyDingTalkDylib-umbrella.h */,
+				FF0CDBB0B2AA16A60422ACB2CD71A6F0 /* Pods-DummyDingTalkDylib.debug.xcconfig */,
+				17AF00C2ACF16E6C8EF05B62F662D88F /* Pods-DummyDingTalkDylib.release.xcconfig */,
+			);
+			name = "Pods-DummyDingTalkDylib";
+			path = "Target Support Files/Pods-DummyDingTalkDylib";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AAEA32FF424504BA9C192860E69EA2CF /* Frameworks */,
+				C4404ECBC7D8877753F722CEBB298BC4 /* Pods */,
+				3D0659D08923FD21177C6A0FF191DFF4 /* Products */,
+				4EBBE15E1868BEC281A5CA79B9D3198B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9565D2206B803D5411F580683DBBC036 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CF5478FB977BA4AD9380234C0C7196E /* CaptainHook.modulemap */,
+				35A1CE6DF3E835A1B2CA384C7F8B018B /* CaptainHook.xcconfig */,
+				BDC88A98297E4D849AA911B764B16179 /* CaptainHook-dummy.m */,
+				EF55A9BB679450F1656614BE7732B4DA /* CaptainHook-prefix.pch */,
+				33E6342D9A282DAF1374A280666C722A /* CaptainHook-umbrella.h */,
+				D7B10BBC3D548CDC6BDF9EEBE7A44866 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CaptainHook";
+			sourceTree = "<group>";
+		};
+		9AD7D404BEF6E634D2A8586DFF54DBB3 /* Pods-DummyDingTalk */ = {
+			isa = PBXGroup;
+			children = (
+				30F5FE8B3729563C0DC6869398D993ED /* Pods-DummyDingTalk-acknowledgements.markdown */,
+				590AFE81D7202BE6B4C56C4CF3DB944A /* Pods-DummyDingTalk-acknowledgements.plist */,
+				F4226D8E1808EF4282B7DB1D31FFFA70 /* Pods-DummyDingTalk-dummy.m */,
+				A250A203E0661F69EB577550251BF772 /* Pods-DummyDingTalk-frameworks.sh */,
+				7484FDDCB461DE0AB0ED354FE1981320 /* Pods-DummyDingTalk-resources.sh */,
+				B04563F19B99E65D021814485C2B6E21 /* Pods-DummyDingTalk.debug.xcconfig */,
+				F6D3B4906E7358E32CF848C077CC6584 /* Pods-DummyDingTalk.release.xcconfig */,
+			);
+			name = "Pods-DummyDingTalk";
+			path = "Target Support Files/Pods-DummyDingTalk";
+			sourceTree = "<group>";
+		};
+		AAEA32FF424504BA9C192860E69EA2CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65CEF6A8E7EF3E49ABAD09F2B5FC31A9 /* CaptainHook.framework */,
+				2444E58E371BFD65454EA5203C6EEFCA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4404ECBC7D8877753F722CEBB298BC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EFB1EB3727662C2A6CD5D4DD04FD9 /* CaptainHook */,
+				62EFB4C81D2854C3AFD95EB6167A3BB5 /* DingtalkPod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA5EFB1EB3727662C2A6CD5D4DD04FD9 /* CaptainHook */ = {
+			isa = PBXGroup;
+			children = (
+				B5609DB410857A0806EF272649C8D2D0 /* CaptainHook.h */,
+				7935C29D95E993F98318F9A83FDE4551 /* CaptainHook.m */,
+				9565D2206B803D5411F580683DBBC036 /* Support Files */,
+			);
+			name = CaptainHook;
+			path = CaptainHook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9264F7FC4DED6981BEA2CD2DA830982A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDEBB7C1283B93873DCE3EA3362BB5F /* CaptainHook-umbrella.h in Headers */,
+				391DE8AB483B65BD90D61293C7C35DF8 /* CaptainHook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8539D8619FB7F9B93D83F262D9B9A00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1CC66A30F8A3C26E0688E84DC9388C /* Pods-DummyDingTalkDylib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC85BC43CD3A0C631D7070ABD623BEF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DBFFDF742C316F00C8568F871B29C3 /* DingtalkPluginConfig.h in Headers */,
+				9230F6E2BA5307E5B6044EA0BBE5BF12 /* DingtalkPod-umbrella.h in Headers */,
+				74116CEA196DDC20FAF3B66E3C010A76 /* DingtalkPod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21D91F8058DEB5FBF1D3B4D379204B75 /* Pods-DummyDingTalkDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FDA41BC44903E5802BB0CB3A7A7BB7 /* Build configuration list for PBXNativeTarget "Pods-DummyDingTalkDylib" */;
+			buildPhases = (
+				006DA2E962F5EE239C6258BF35CCCCD6 /* Sources */,
+				C936E342979697476B391D725DBDCBFD /* Frameworks */,
+				E8539D8619FB7F9B93D83F262D9B9A00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D500DABDAFF148A28DDBF1832F5AA7A3 /* PBXTargetDependency */,
+				54A160ABC4F2A774CCCFB7A5E95F61F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-DummyDingTalkDylib";
+			productName = "Pods-DummyDingTalkDylib";
+			productReference = 30B0632653BE2F0E92FF446A629E5927 /* Pods_DummyDingTalkDylib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		369D763DACCFE8EAD08074F0B476F5FD /* DingtalkPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABAF71025507644D1A247447EC9F922 /* Build configuration list for PBXNativeTarget "DingtalkPod" */;
+			buildPhases = (
+				41CC0C751BC7513E66207E51EDE53A29 /* Sources */,
+				3D1B66FC446D89C3CFF83A1CF693CDBE /* Frameworks */,
+				FC85BC43CD3A0C631D7070ABD623BEF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5552CC87D2C88D8010FD3702DFA03078 /* PBXTargetDependency */,
+			);
+			name = DingtalkPod;
+			productName = DingtalkPod;
+			productReference = DBE3E602A87DC53074E5D0E641F421C7 /* DingtalkPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3AC850F63439DD2D3AEA2240A455F408 /* Pods-DummyDingTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE004E57479FE1C3DF203E1CF6B635A /* Build configuration list for PBXNativeTarget "Pods-DummyDingTalk" */;
+			buildPhases = (
+				0B47CD73BD41B29D6809E2FD5DE68823 /* Sources */,
+				5C5B1DE795A754F5788CA9A01F2FF621 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DummyDingTalk";
+			productName = "Pods-DummyDingTalk";
+			productReference = E79EC62B0B25659DC593A638A6DB99E8 /* libPods-DummyDingTalk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2B08C488B63CA7F8933DAF93C62B4D2 /* CaptainHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D735D4F3D274EC9C7B892673F8DC479 /* Build configuration list for PBXNativeTarget "CaptainHook" */;
+			buildPhases = (
+				5F25A2EEC5D7D2D9A69C3457E6A25B87 /* Sources */,
+				F92D15635CCA9F08A0AE0D25A42E057D /* Frameworks */,
+				9264F7FC4DED6981BEA2CD2DA830982A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaptainHook;
+			productName = CaptainHook;
+			productReference = FBD56F5D9E9BD4215C6674C944CC7F85 /* CaptainHook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3D0659D08923FD21177C6A0FF191DFF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2B08C488B63CA7F8933DAF93C62B4D2 /* CaptainHook */,
+				369D763DACCFE8EAD08074F0B476F5FD /* DingtalkPod */,
+				3AC850F63439DD2D3AEA2240A455F408 /* Pods-DummyDingTalk */,
+				21D91F8058DEB5FBF1D3B4D379204B75 /* Pods-DummyDingTalkDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		006DA2E962F5EE239C6258BF35CCCCD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CF1B7F73466CD43ECD8A1E038C5B32 /* Pods-DummyDingTalkDylib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B47CD73BD41B29D6809E2FD5DE68823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B779CA8E5E087F1E3441EE338E996BF /* Pods-DummyDingTalk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CC0C751BC7513E66207E51EDE53A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C954C90428D35CE59241F43688E76C /* dingdingDylib.m in Sources */,
+				D50C19E073B3D806FD33DAEEF8B3FB22 /* DingtalkPluginConfig.m in Sources */,
+				49504EE295C78CA22ADD010AFD25212B /* DingtalkPod-dummy.m in Sources */,
+				929E184D4912C5260FBC151DC7C9A025 /* DingtalkPod.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F25A2EEC5D7D2D9A69C3457E6A25B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42C1A994687EF4639B9D3F1AC972B39 /* CaptainHook-dummy.m in Sources */,
+				13FE0CC90504F6B78184D166828FE2C2 /* CaptainHook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A160ABC4F2A774CCCFB7A5E95F61F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DingtalkPod;
+			target = 369D763DACCFE8EAD08074F0B476F5FD /* DingtalkPod */;
+			targetProxy = 1F50567B707BAC3690299921A8D5B2DA /* PBXContainerItemProxy */;
+		};
+		5552CC87D2C88D8010FD3702DFA03078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CaptainHook;
+			target = C2B08C488B63CA7F8933DAF93C62B4D2 /* CaptainHook */;
+			targetProxy = 148B3FD06719CB1D954BE694C36D64D7 /* PBXContainerItemProxy */;
+		};
+		D500DABDAFF148A28DDBF1832F5AA7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CaptainHook;
+			target = C2B08C488B63CA7F8933DAF93C62B4D2 /* CaptainHook */;
+			targetProxy = 9C807619F42D4AB376A0B5A91295B076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2E1A627850E3425A83C17D80724B4858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5139052CA75BF3AAE251B5164E7D46 /* DingtalkPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DingtalkPod/DingtalkPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DingtalkPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DingtalkPod/DingtalkPod.modulemap";
+				PRODUCT_MODULE_NAME = DingtalkPod;
+				PRODUCT_NAME = DingtalkPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		335C0FEB0D73987549A5C6657F5FB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A1CE6DF3E835A1B2CA384C7F8B018B /* CaptainHook.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CaptainHook/CaptainHook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CaptainHook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CaptainHook/CaptainHook.modulemap";
+				PRODUCT_MODULE_NAME = CaptainHook;
+				PRODUCT_NAME = CaptainHook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36848DB5E751B898ED717B747968B0F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D3B4906E7358E32CF848C077CC6584 /* Pods-DummyDingTalk.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B6B60D55A6E45CF921C52B81D1BC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0CDBB0B2AA16A60422ACB2CD71A6F0 /* Pods-DummyDingTalkDylib.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DummyDingTalkDylib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DummyDingTalkDylib/Pods-DummyDingTalkDylib.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94E5081ACBE522461B544FAC679D5C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5139052CA75BF3AAE251B5164E7D46 /* DingtalkPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DingtalkPod/DingtalkPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DingtalkPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DingtalkPod/DingtalkPod.modulemap";
+				PRODUCT_MODULE_NAME = DingtalkPod;
+				PRODUCT_NAME = DingtalkPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0D447380CB57A3FACBD80E7F4AAC05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04563F19B99E65D021814485C2B6E21 /* Pods-DummyDingTalk.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC2D6DE453D7B34B94D6B6F6AD1670F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AF00C2ACF16E6C8EF05B62F662D88F /* Pods-DummyDingTalkDylib.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DummyDingTalkDylib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DummyDingTalkDylib/Pods-DummyDingTalkDylib.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5117992F079CA0496C4E20D2DD8DBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A1CE6DF3E835A1B2CA384C7F8B018B /* CaptainHook.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CaptainHook/CaptainHook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CaptainHook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CaptainHook/CaptainHook.modulemap";
+				PRODUCT_MODULE_NAME = CaptainHook;
+				PRODUCT_NAME = CaptainHook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D735D4F3D274EC9C7B892673F8DC479 /* Build configuration list for PBXNativeTarget "CaptainHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5117992F079CA0496C4E20D2DD8DBEA /* Debug */,
+				335C0FEB0D73987549A5C6657F5FB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FDA41BC44903E5802BB0CB3A7A7BB7 /* Build configuration list for PBXNativeTarget "Pods-DummyDingTalkDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B6B60D55A6E45CF921C52B81D1BC64 /* Debug */,
+				ABC2D6DE453D7B34B94D6B6F6AD1670F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE004E57479FE1C3DF203E1CF6B635A /* Build configuration list for PBXNativeTarget "Pods-DummyDingTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D447380CB57A3FACBD80E7F4AAC05C /* Debug */,
+				36848DB5E751B898ED717B747968B0F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABAF71025507644D1A247447EC9F922 /* Build configuration list for PBXNativeTarget "DingtalkPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E5081ACBE522461B544FAC679D5C6B /* Debug */,
+				2E1A627850E3425A83C17D80724B4858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
